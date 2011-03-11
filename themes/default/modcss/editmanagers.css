@@ -1,0 +1,57 @@
+
+#accountList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-top:3px;
+	margin-left:5px;
+}
+
+#accountList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#accountList div img {
+	margin-left:4px;
+	margin-top:4px;
+	margin-right:4px;
+}
+
+#managerList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-top:7px;
+	margin-right:5px;
+}
+
+html>body #managerList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-top:3px;
+	margin-right:5px;
+}
+
+
+#managerList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#managerList div img {
+	margin-left:4px;
+	margin-top:4px;
+	margin-right:4px;
+}
+
+.formHeader input {
+        float:right;
+        font-size:10px;
+        font-family:Tahoma;
+        height:18px;
+        width:100px;
+        font-weight:normal;
+}

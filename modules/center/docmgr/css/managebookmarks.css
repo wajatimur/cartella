@@ -1,0 +1,70 @@
+
+.bkHeader div {
+	float:left;
+}
+
+.bkHeader .bkTitle {
+	margin-left:15px;
+	width:200px;
+}
+
+.bkList div {
+	float:left;
+	border-bottom:1px solid #DADADA;
+	height:20px;
+}
+
+.bkList .bkTitle {
+	width:200px;
+}
+
+.bkExpand {
+	width:80px;
+	text-align:center;
+}
+
+.bkDelete {
+	width:80px;
+	text-align:center;
+}
+
+.bkBullet img {
+	margin-top:6px;
+}
+
+.bkList {
+	height:250px;
+	border:1px solid #DADADA;
+	overflow:auto;
+	margin-bottom:10px;
+}
+
+.bkName {
+	border:0px;
+	width:200px;
+	padding-left:3px;
+}
+
+.bkName:focus {
+	background-color:#DADADA;
+}
+
+
+.bkSelect {
+}
+
+.bkImage {
+	margin-bottom:-2px;
+	border:1px solid white;
+}
+
+.bkImage:hover {
+	cursor:pointer;
+	border:1px outset black;
+}
+
+.bkImage:active {
+	cursor:pointer;
+	border:1px inset black;
+}
+

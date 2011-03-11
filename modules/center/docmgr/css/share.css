@@ -1,0 +1,88 @@
+
+.shareHeaderRow
+{
+	width:100%;
+}
+
+.shareHeaderRow div
+{
+	float:left;
+	width:48%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#shareBody
+{
+	height:160px;	
+	overflow:auto;
+	border:1px solid #BABABA;
+}
+
+.shareBodyRow
+{
+	width:100%;
+	border-bottom:1px solid #BABABA;
+}
+
+.shareRowName
+{
+	float:left;
+	width:48%;
+	padding-top:5px;
+	padding-left:7px;
+}
+
+.shareRowSetting
+{
+	float:left;
+	width:48%;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.shareRowSetting img
+{
+	margin-top:3px;
+	float:right;
+}
+
+.shareRowSetting img:hover
+{
+	cursor:pointer;
+}
+
+#shareSearchResults
+{
+	position:absolute;
+	display:none;
+	background-color:white;
+	max-height:100px;
+	min-width:150px;
+	overflow:auto;
+	border:1px solid #BABABA;
+	margin-left:63px;
+}
+
+#shareSearchResults div
+{
+	padding:2px;
+	border-bottom:1px solid #BABABA;
+}
+
+#shareSearchResults div:hover
+{
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+#search_string
+{
+	margin-right:5px;
+}
+
+#share_setting
+{
+	margin-right:5px;
+}

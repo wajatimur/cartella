@@ -1,0 +1,87 @@
+
+/**********************************
+	permissions header
+**********************************/
+#permDiv {
+	width:600px;
+}
+
+.permHeader {
+	padding:2px;
+}
+
+.permNameHeader {
+	width:200px;
+	float:left;
+	font-weight:bold;
+	color:black;
+	margin-left:5px;
+	margin-right:-5px;
+}
+
+.permBoxHeader {
+	text-align:center;
+	width:71px;
+	float:left;
+	font-weight:bold;
+	color:black;
+}
+
+/**************************************************
+	permissions list contents
+**************************************************/
+
+.permList {
+	height:250px;
+	border:1px solid #4682B4;
+	list-style-type:none;
+	overflow:auto;
+}
+
+.permList li {
+	border-bottom:1px solid #DADADA;
+}
+
+.permNameCell {
+	float:left;
+	width:200px;
+	padding:2px;
+}
+
+.permBoxCell {
+	float:left;
+	width:70px;
+	text-align:center;
+}
+
+
+/********* obj search *********/
+#agSearch {
+  background-image:url("/themes/default/images/icons/search-field.gif");
+  width:182px;
+  height:20px;
+  margin-top:-1px;
+	float:right;
+	margin-right:15px;
+}
+
+#agSearch input {
+  font-size:10px;
+  height:12px;
+  width:137px;
+  margin-top:2px;
+  border:1px solid white;
+  margin-left:28px;
+  float:left;
+}
+
+#agFilter {
+	margin-top:-2px;
+	float:right;
+}
+
+
+#resetOption {
+  margin-top:15px;
+}
+

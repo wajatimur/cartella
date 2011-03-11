@@ -1,0 +1,10 @@
+
+.accountRow {
+	border-bottom:1px solid #DADADA;
+	padding:2px;
+}
+
+.accountRow:hover {
+	cursor:pointer;
+	background-color:white;
+}

@@ -1,0 +1,188 @@
+
+.toolbarBtn {
+  padding:4px;
+}
+
+.toolbarBtn:hover {
+  cursor:pointer;
+  background-color:white;
+}
+
+#editorControls {
+  background-color:#DADADA;
+  border:1px solid darkslategray;
+}
+
+.toolbarCell img {
+	height:14px;
+	margin-bottom:-2px;
+}
+
+.toolbarCell {
+  background-color:#DADADA;
+	white-space:nowrap;
+	height:22px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.toolbarCell:hover {
+	cursor:pointer;
+	background-color:white;
+}
+
+.toolbarCell:hover .toolbarSub {
+	display:block;
+	z-index:500;
+}
+
+.toolbarCell select {
+	font-size:10px;
+}
+
+.toolbarSub {
+	display:none;
+	position:absolute;
+	background-color:white;
+	width:196px;
+	border:1px solid black;
+}
+
+.toolbarSubRow {
+	padding:4px;
+	background-color:white;
+	cursor:normal;
+}
+
+.toolbarSubRowHover {
+	padding:4px;
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+
+#ddFrame {
+	position:absolute;
+}
+
+
+/***********************
+  buttons
+***********************/
+.toolbarButton {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+}
+
+.mozBtnImg {
+  margin-right:5px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+.ieBtnImg {   
+  height:16px;
+  margin-top:-2px;
+  padding-left:5px; 
+  padding-right:2px;
+  margin-right:-5px;
+}
+
+/***********************
+  template window
+***********************/
+#templatewin {
+  width:500px;
+  height:350px;
+  -moz-border-radius:8px;
+  background-color:lightyellow;
+  border:1px solid black;
+  position:absolute;
+  z-index:10;
+}
+ 
+.closeImage {
+  float:right;
+  margin:5px; 
+}
+ 
+.templateHeader {
+  font-weight:bold;
+  font-size:14px;  
+  margin:10px;     
+}
+ 
+.templateSectionHeader {
+  font-weight:bold;
+  margin:5px;
+}
+ 
+.templateContent {
+  margin:5px;
+  margin-left:10px;
+}
+ 
+.leftColumn {
+  float:left;
+  width:47%; 
+}
+ 
+.rightColumn {
+  float:left; 
+  width:47%;  
+}
+ 
+#privateList {
+  border:1px solid #DADADA;
+  width:200px;
+  height:250px;
+  overflow:auto;
+  background-color:white;
+}
+ 
+#pubList {
+  border:1px solid #DADADA;
+  width:200px;
+  height:250px;
+  overflow:auto;
+  background-color:white;
+}
+ 
+.templateList {
+  padding:2px; 
+  list-style-type:none;
+  border-bottom:1px solid #DADADA;
+}
+ 
+.templateList:hover {
+  background-color:lightblue;
+  cursor:pointer;
+}
+
+#letterToolbar select {
+	font-size:10px;
+}
+
+.closeButton {
+	font-size:10px;
+	float:right;
+}
+
+#letterFooter {
+	background-color:#DADADA;
+	border:1px solid darkslategray;
+}
+
+#letterNameDiv {
+	float:left;
+	width:49%;
+	padding-left:5px;
+	font-weight:bold;
+}
+
+#letterMessages {
+	float:left;
+	width:49%;
+	text-align:right;
+}

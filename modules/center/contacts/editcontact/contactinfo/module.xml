@@ -1,0 +1,8 @@
+	<module>
+		<module_name>Contact Info</module_name>
+		<link_name>contactinfo</link_name>
+		<hidden></hidden>
+		<sort_order>2</sort_order>
+		<module_description>Returns information for a specific contact</module_description>
+	</module>
+

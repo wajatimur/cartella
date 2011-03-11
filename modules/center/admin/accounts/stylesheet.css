@@ -1,0 +1,94 @@
+
+/*****************************************************
+	generic styles for all pages
+*****************************************************/
+
+#container {
+	width:100%;
+}
+
+#container .leftColumn {
+	width:46%;
+	padding:0px;
+	margin:10px;
+}
+
+#container .rightColumn {
+	width:46%;
+	padding:0px;
+	margin:10px;
+}
+
+
+.permList {
+	padding:10px;
+}
+
+
+.listCell {
+	border-bottom:1px solid #DADADA;
+	border-right:1px solid #DADADA;
+}
+
+.listCell div {
+	border-bottom:1px solid #DADADA;
+}
+
+.listCell input {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:4px;
+	margin-bottom:4px;
+	max-width:auto;
+}
+
+#searchResults {
+	display:none;
+	background-color:white;
+	position:absolute;
+	width:150px;
+	margin-top:20px;
+	margin-left:23px;
+	border:1px solid #DADADA;
+	max-height:400px;
+	overflow:auto;
+}
+
+#searchResults div {
+	padding:3px;
+	border-bottom:1px solid #DADADA;
+}
+
+#searchResults div:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.createBtnDiv {
+	float:right;
+	margin-right:10px;
+}
+
+#sms_emaillist {
+	width:100%;
+}
+
+#accountList
+{
+	width:275px;
+	height:360px;
+	border:1px solid #CCCCCC;
+	overflow:auto;
+}
+
+#accountList div
+{
+	padding:2px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+#accountList div:hover
+{
+	background-color:lightyellow;
+	cursor:pointer;
+}

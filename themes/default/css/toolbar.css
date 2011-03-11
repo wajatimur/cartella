@@ -1,0 +1,112 @@
+
+/***************************************************
+	no margins on the page when using this toolbar
+***************************************************/
+.siteContainer {
+	margin:0px;
+	padding:0px;
+}
+
+/********************************
+	toolbar
+********************************/
+.toolbar {
+  background-color:#E8E8E8;
+	border-top:1px solid white;
+	border-bottom:1px solid #BABABA;
+	height:25px;
+	padding-left:5px;
+}
+	
+.toolbarCell {
+  background-color:#E8E8E8;
+	white-space:nowrap;
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:4px;
+}
+
+.toolbarCell:hover {
+	cursor:pointer;
+	background-color:white;
+}
+
+.toolbarCell img {
+	margin-right:4px;
+	margin-top:-1px;
+}
+
+.toolbarCell:hover .toolbarSub {
+	display:block;
+	margin-top:2px;
+	margin-left:-11px;
+	position:absolute;
+	background-color:white;
+	min-width:210px;
+	z-index:500;
+	border:1px solid black;
+}
+
+.toolbarCell select {
+	font-size:10px;
+}
+
+.toolbarSub {
+	display:none;
+}
+
+.toolbarSubRow {
+	padding:4px;
+}
+
+.toolbarSubRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.toolbarDivider {
+	float:left;
+	color:darkslategray;
+	padding-top:4px;
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.toolbarTitle {
+	float:right;
+	margin-right:10px;
+	font-weight:bold;
+	font-size:14px;
+	padding-top:4px;
+}
+
+.toolbarText {
+  background-color:#E8E8E8;
+	white-space:nowrap;
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:4px;
+	font-weight:bold;
+}
+
+.toolbarCellSelect {
+  background-color:white;
+	white-space:nowrap;
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-bottom:4px;
+}
+
+.toolbarCellSelect:hover {
+	cursor:pointer;
+	background-color:#E8E8E8;
+}
+
+/*****************  end toolbar ***************/
+

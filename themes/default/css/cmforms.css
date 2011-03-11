@@ -1,0 +1,168 @@
+    #container {
+        width:700px;
+        max-height:100%;
+        padding: 0px 0px 0px 0px;
+        margin: 0px;
+        top: 0px;
+        left: 0px;
+    /*
+        background:buttonface;
+     */
+    }
+
+    #container br{
+        clear:left;
+    }
+
+    .quads {
+        display:block;
+        white-space:nowrap;
+        width:99.9%;
+    } 
+    .quads div.statusquad1 {
+        display:block;
+        width:42.9%;
+        float:left;
+        position:relative;
+        top:0;
+        left:0;
+    }
+
+    .quads div.statusquad2 {
+        display:block;
+        width:12.9%;
+        float:left;
+        position:relative;
+        top:0em;
+        left:0em;
+        text-align:center;
+        color: green;
+        font-weight:bold;
+        font-size:11pt;
+    }
+
+    .quads div.statusquad3 {
+        display:block;
+        width:32.9%;
+        float:right;
+        position:relative;
+        top:0em;
+        left:0em;
+        text-align:right;
+        font-weight:bold;
+    }
+
+    .quads div.leftquad {
+        display:block;
+        float:left;
+        padding-left:.7em;
+        position:relative;
+        top:0em;
+        left:0em;
+    }
+
+    .quads div.centerquad {
+        display:block;
+        float:left;
+        position:relative;
+        top:0em;
+        left:.6em;
+        right:.6em;
+    }
+
+    .quads div.rightquad {
+        display:block;
+        float:right;
+        padding-right:.7em;
+        position:relative;
+        top:0em;
+        left:0em;
+    }
+
+    .quads div.formHeader{
+       margin-top:.2em;
+       padding-top:.2em;
+    }
+
+    .quads span.generic {
+        display:inline;
+        position:relative;
+        top:0;
+        left:0;
+    }
+
+    .quads input.graybox{
+    }
+
+    #parambar {
+        display:block;
+        margin:0;
+        padding:0;
+        font-weight:normal;
+        font-family:Verdana,Arial,MS Sans, serif;
+        font-size:12pt;
+    }
+
+    #parambar label{
+        float:left;
+        display:block;
+        text-align:left;
+        padding:.2em;
+        margin: 0em;
+    }
+
+    #parambar input{
+        display:block;
+        padding:.2em;
+    }
+    
+    #parambar select{
+        display:block;
+        padding:.2em;
+        position:relative;
+    }
+
+    .parambutton{
+        display:block;
+        padding:.2em;
+        font-size: 90%;
+        font-weight:bold;
+        font-family:Arial,MS Sans, serif;
+        position:relative;
+        top:15px;
+        left:5px;
+         
+    }
+
+    .subp{
+        font: 9pt Verdana,Arial,MS Sans, serif;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    
+    .mainp{
+        font: 11pt Verdana,Arial,MS Sans, serif;
+    }
+
+
+    .pmesg{
+        font: 9pt Verdana,Arial,MS Sans, serif;
+        color: red;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left:5%;
+        width:60%;
+        text-align:justify; 
+    }
+
+    #homelink a:link, #homelink a:visited {
+        margin-right: 20px;
+        font: bold 9pt Georgia,Arial, sans-serif;
+        border-bottom: 1px #C16400 dotted;
+        color:#666666;
+    }
+
+    #homelink a:hover {
+        color: #C16400;
+        text-decoration:none;
+    }

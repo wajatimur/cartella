@@ -1,0 +1,8 @@
+/**********************************************************
+	Description of the files in this directory
+**********************************************************/
+
+README				This file.
+
+docmgr.pgsql			The docmgr database creation sql script.
+

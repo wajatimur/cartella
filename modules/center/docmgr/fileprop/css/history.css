@@ -1,0 +1,70 @@
+
+#historyList {
+	width:100%;
+}
+
+#historyList tr {
+	border-bottom:1px solid #DADADA;
+}
+
+#historyList th {
+	text-align:center;
+	border-bottom:1px solid #DADADA;
+	padding:5px;
+}
+
+#historyList td {
+	border-bottom:1px solid #DADADA;
+	text-align:center;
+	padding:5px;
+}
+
+.historyRow:hover
+{
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.objCheckbox
+{
+	width:25px;
+}
+
+.objVersion {
+	width:5%;
+}
+
+.objModOn {
+	width:20%;
+}
+
+.objModBy {
+	width:20%;
+}
+
+
+.objSize {
+	width:10%;
+}
+
+.objNotes {
+}
+
+.objOpts {
+	width:150px;
+}
+
+.objOpts img {
+	margin-left:2px;
+	margin-right:2px;
+}
+
+.objOpts img:hover {
+	cursor:pointer;
+}
+
+#viewDoc {
+	width:760px;
+	height:560px;
+	overflow:auto;
+}

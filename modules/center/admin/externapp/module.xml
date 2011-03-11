@@ -1,0 +1,11 @@
+	<module>
+		<module_name>External Applications</module_name>
+		<link_name>externapp</link_name>
+		<hidden>0</hidden>
+		<permissions>ADMIN</permissions>
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<sort_order>4</sort_order>
+		<module_description>For viewing optional applications detected by DocMGR</module_description>
+	</module>
+

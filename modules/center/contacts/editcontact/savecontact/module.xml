@@ -1,0 +1,8 @@
+	<module>
+		<module_name>Save Contact</module_name>
+		<link_name>savecontact</link_name>
+		<hidden></hidden>
+		<sort_order>2</sort_order>
+		<module_description>container for sub modules</module_description>
+	</module>
+

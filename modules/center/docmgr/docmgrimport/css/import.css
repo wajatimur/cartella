@@ -1,0 +1,53 @@
+
+.leftColumn {
+	text-align:center;
+	margin-top:15px;
+}
+
+.rightColumn {
+	margin-top:15px;
+}
+
+.importCell {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.importFileName {
+	text-align:center;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+
+.importFileImage {
+	border:1px solid black;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#importOptions {
+}
+
+#importOptions .leftColumn {
+	margin-top:-5px;
+	padding-top:0px;
+	text-align:left;
+	width:100px;
+}
+
+#importOptions .rightColumn {
+	margin-top:-5px;
+	padding-top:0px;
+	text-align:left;
+}
+
+#showFilePath {
+	margin-top:5px;
+	margin-bottom:10px;
+	border:1px solid #DADADA;
+	background-color:lightyellow;
+	padding:4px;
+	margin-right:20px;
+}

@@ -1,0 +1,61 @@
+#sitePopupWin {
+	position:absolute;
+	background-color:#d6dde5;
+	border:2px solid black;
+	display:none;
+	z-index:100;
+  -webkit-border-bottom-right-radius:8px;
+  -webkit-border-bottom-left-radius:8px;
+  -webkit-border-top-left-radius:8px;
+  -webkit-border-top-right-radius:8px;
+  -webkit-box-shadow: 3px 3px 3px #999;
+
+}
+
+.sitePopupContainer {
+	background-color:white;
+	margin:10px;
+	border:1px inset black;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+}
+
+.sitePopupCell {
+	padding:5px;
+}
+
+.sitePopupHeader {
+	margin-bottom:3px;
+	color:black;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.sitePopupCloseBtn {
+	float:right;
+	height:18px;
+	width:18px;
+}
+
+.sitePopupCloseBtn:hover {
+	cursor:pointer;
+}
+
+.sitePopupCloseBtn:active {
+	cursor:pointer;
+}
+
+#sitePopupHandle {
+  -webkit-border-top-left-radius:8px;
+  -webkit-border-top-right-radius:8px;
+	background-color:#DADADA;
+	background-image:url("../../../themes/default/images/sitenavselect.png");
+	border-bottom:1px solid black;
+	height:20px;
+}
+
+#sitePopupHandle:hover {
+	cursor:pointer;
+}
+

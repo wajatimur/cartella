@@ -1,0 +1,4 @@
+<?php
+
+$toolBar = modTreeMenu($module);
+

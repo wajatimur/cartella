@@ -1,0 +1,77 @@
+
+.stageContainer {
+	width:95%;
+	background-color:#E5ECF9;
+	border:1px solid #DADADA;
+	padding:5px;
+	min-height:80px;
+}
+
+.stageHeader {
+	font-weight:bold;
+}
+
+.stageHeader a {
+	float:right;
+}
+
+.recipOpts {
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+#dateDue {
+	width:75px;
+}
+
+.taskRecipList {
+	border:1px solid #DADADA;
+	height:100px;
+	overflow:auto;
+}
+
+.taskRecipList div {
+	border-bottom:1px solid #DADADA;
+}
+
+.taskRecipList div input {
+	margin-bottom:-2px;
+}
+
+#taskNotes {
+	width:100%;
+	height:100px;
+}
+
+.recipContainer {
+	border:1px solid black;
+	float:left;
+	margin:5px;
+	padding:5px;
+}
+
+.workflowTemplateList {
+	height:200px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+.workflowTemplateList div {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.workflowTemplateList div:hover {
+	cursor:pointer;
+	background-color:lightyellow;
+}
+
+.leftColumn {
+	width:40%;
+	float:left;
+}
+
+.rightColumn {
+	width:40%;
+	float:left;
+}

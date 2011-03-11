@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+<!--
+	<div_id> -> the id of the div we'll put our forms into
+	<form>
+		<title>My Select</title>  header over form
+		<name>form_name</name>		html form name
+		<type>select</type>				type (textbox,textarea,select)
+		<table>state</table>			table to get data from
+		<title_field>id</title_field>		name field in table (contains entry names))
+		<data_field>name</data_field>		value field in table (contains entry values) 
+		<data>field</data>	field in passed data which contains stored value
+		###### checkbox forms #########
+		<data_node>field</data_node> overrides "data" as the $_REQUEST field we pull our data from
+		<save_table>table</save_table> overrides "table" as the table we save our records to
+		###############################
+		<central>yes</central>  query central database for records
+	</form>
+
+-->
+
+		<form>
+			<title>Description</title>
+			<name>title</name>
+			<data>title</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Priority</title>
+			<name>priority</name>
+			<data>priority</data>
+			<type>select</type>
+			<defaultval>2</defaultval>
+			<option>
+				<title>Very Important</title>
+				<data>1</data>
+			</option>
+			<option>
+				<title>Important</title>
+				<data>2</data>
+			</option>
+			<option>
+				<title>Not Important</title>
+				<data>3</data>
+			</option>
+		</form>
+		<form>
+			<title>Date Due</title>
+			<name>dateDue</name>
+			<data>date</data>
+			<type>datedue</type>
+			<defaultval>NOW</defaultval>
+			<size>10</size>
+		</form>
+		<form>
+			<title>Completed</title>
+			<name>completed</name>
+			<data>completed</data>
+			<type>yesno</type>
+			<defaultval>0</defaultval>
+		</form>
+		<form>
+			<title>Notes</title>
+			<name>notes</name>
+			<data>notes</data>
+			<type>textarea</type>
+			<display>multiform</display>
+		</form>
+		
+</data>
+
+

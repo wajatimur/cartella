@@ -1,0 +1,8 @@
+	<module>
+		<module_name>Send Email</module_name>
+		<link_name>sendemail</link_name>
+		<hidden>1</hidden>
+		<sort_order>3.5</sort_order>
+		<module_description></module_description>
+	</module>
+

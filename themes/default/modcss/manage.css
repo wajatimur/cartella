@@ -1,0 +1,76 @@
+
+.formHeader a {
+	padding-left:5px;
+	font-weight:normal;
+}
+
+#releases {
+	margin-top:3px;
+	height:80px;
+	width:220px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+#releases div {
+	border-bottom:1px solid #DADADA;
+}
+
+#defaultAssignTo {
+	margin-top:3px;
+	height:75px;
+	width:220px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+#defaultAssignTo div {
+	border-bottom:1px solid #DADADA;
+}
+
+
+#managers {
+	margin-top:3px;
+	height:80px;
+	width:220px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+#managers div {
+	border-bottom:1px solid #DADADA;
+}
+
+#members {
+	margin-top:3px;
+	height:80px;
+	width:220px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+#members div {
+	border-bottom:1px solid #DADADA;
+}
+
+.boxContent {
+	padding:10px;
+}
+
+.dateCreated {
+	float:left;
+	font-weight:normal;
+	width:33%;
+}
+
+.projectLink {
+	float:left;
+	width:33%;
+	text-align:right;
+}
+
+.projectName {
+	float:left;
+	width:33%;
+}
+

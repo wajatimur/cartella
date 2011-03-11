@@ -1,0 +1,24 @@
+
+#showBrowsePath {
+	float:right;
+	font-size:14px;
+	font-weight:bold;
+	margin-right:10px;
+	margin-top:4px;
+}
+
+#largePreviewDiv {
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.largePreviewImg {
+	border:1px solid black;	
+	max-height:575px;
+	max-width:600px;
+}
+
+.editThumb:hover {
+	cursor:pointer;
+}

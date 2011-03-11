@@ -1,0 +1,88 @@
+
+.topicList {
+	float:left;
+	width:49%;
+}
+
+.topicContHeader {
+	padding:5px;
+	font-weight:bold;
+	font-size:14px;
+	width:90%;
+	border-bottom:1px solid black;
+}
+
+.topicContData {
+	padding:5px;
+}
+
+.topicRow {
+	margin-bottom:10px;
+}
+
+.topicHeader {
+	font-weight:bold;
+}
+
+.topicHeader a {
+	text-decoration:underline;
+}
+
+.topicStats {
+	padding-left:10px;
+}
+
+
+.threadList {
+	float:left;
+	width:49%;
+	margin-top:10px;
+}
+
+.topicCell {
+	padding:5px;
+}
+
+hr {
+	color:darkslategray;
+	height:1px;
+}
+
+.postCell {
+	padding-bottom:10px;
+}
+
+.threadActions a {
+	margin-right:5px;
+}
+
+#message_subject {
+	width:520px;
+}
+
+#message_content {
+	width:100%;
+	height:150px;
+}
+
+#threadTable {
+}
+
+#threadTable td {
+	padding:5px;
+	border:1px solid white;
+}
+
+.threadHeader {
+	font-weight:bold;
+	color:darkblue;
+	background-color:#D5E6E1;
+}
+
+.threadRowOne {
+	background-color:#D5E6E1;
+}
+
+.threadRowTwo {
+	background-color:#F7F7F7;
+}

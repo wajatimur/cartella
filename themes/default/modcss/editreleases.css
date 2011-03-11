@@ -1,0 +1,19 @@
+
+
+#releaseList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-top:3px;
+}
+
+#releaseList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#releaseList div img {
+	padding-left:4px;
+	padding-top:4px;
+	padding-right:4px;
+}

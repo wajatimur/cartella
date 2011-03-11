@@ -1,0 +1,8 @@
+	<module>
+		<module_name>attach delete</module_name>
+		<link_name>attachdelete</link_name>
+		<hidden>1</hidden>
+		<sort_order>3.5</sort_order>
+		<module_description></module_description>
+	</module>
+

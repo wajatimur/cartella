@@ -1,0 +1,122 @@
+
+/*******************************
+	suggest box
+*******************************/
+#suggestBox {
+	margin:10px;
+	-moz-border-radius:10px;
+	background-color:lightblue;
+	padding:10px;
+}
+
+#suggestHeader {
+	font-weight:bold;
+	height:18px;
+}
+
+#suggestHeader input {
+	float:right;
+	font-size:9px;
+	font-weight:normal;
+	margin-top:-5px;
+}
+
+#suggestList {
+	height:150px;
+	overflow:auto;
+	background-color:white;
+}
+
+#suggestList li {
+	list-style-type:none;
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+#suggestList li:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+#suggestPreview {
+	background-color:white;
+	height:150px;
+	overflow:auto;
+	padding:5px;
+}
+
+.suggestBtns {
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+	margin-left:20px;
+	text-align:center;
+}
+
+.suggestBtns input {
+	font-size:10px;
+	margin-bottom:10px;
+}
+
+#suggestAction {
+	height:20px;
+}
+
+/* company form */
+#selectCompanyDiv div {
+	float:left;
+	padding:7px;
+}
+
+#suggestFilterDiv {
+	background-color:lightblue;
+	margin-top:3px;
+	margin-bottom:3px;
+	height:16px;
+}
+
+#suggestFilter {
+	font-size:10px;
+}
+
+#cbDisplay {
+	float:left;
+	margin:7px;
+	margin-left:10px;
+}
+
+#cbEdit {
+	float:left;
+	margin-left:15px;
+	margin:7px;
+}
+
+#country {
+	width:145px;
+}
+
+/* for suggesting salutations */
+.suggestDiv {
+	display:none;
+	position:absolute;
+	z-index:5;
+  background-color:white;
+  border:1px solid black;
+  margin-left:5px;
+  width:150px;
+}
+
+.suggestDiv div {
+  border-bottom:1px solid #DADADA;
+  padding:1px;
+  padding-left:3px;
+  cursor:pointer;
+}
+
+.suggestDiv div:hover {
+  background-color:lightblue;
+}
+
+#suggestImg {
+  margin-bottom:-2px;
+}

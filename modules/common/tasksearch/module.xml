@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Task Search</module_name>
+		<link_name>tasksearch</link_name>
+		<hidden></hidden>
+		<sort_order>1</sort_order>
+		<module_description>returns xml list of task for user</module_description>
+		<template>empty</template>
+	</module>
+

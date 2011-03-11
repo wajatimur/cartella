@@ -1,0 +1,12 @@
+	<module>
+		<module_name>Group Manager</module_name>
+		<link_name>groupadmin</link_name>
+		<hidden>0</hidden>
+		<auth_only>1</auth_only>
+		<sort_order>2</sort_order>
+		<module_description>Manage account groups and their
+		permissions.</module_description>
+		<permissions>ADMIN</permissions>
+		<permissions>MANAGE_GROUP</permissions>
+	</module>
+

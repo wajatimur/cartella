@@ -1,0 +1,80 @@
+
+/**********************************
+	permissions header
+**********************************/
+.permHeader {
+	padding:2px;
+}
+
+.permNameHeader {
+	width:50%;
+	float:left;
+	font-weight:bold;
+	color:black;
+	margin-left:5px;
+	margin-right:-5px;
+}
+
+.permBoxHeader {
+	text-align:center;
+	width:15%;
+	float:left;
+	font-weight:bold;
+	color:black;
+}
+
+/**************************************************
+	permissions list contents
+**************************************************/
+
+.permList {
+	height:150px;
+	border:1px solid #4682B4;
+	list-style-type:none;
+	overflow:auto;
+}
+
+.permList li {
+	border-bottom:1px solid #DADADA;
+}
+
+.permNameCell {
+	float:left;
+	width:50%;
+	padding:2px;
+}
+
+.permBoxCell {
+	float:left;
+	width:15%;
+	text-align:center;
+}
+
+
+/**************************************************
+	permissions footer
+**************************************************/
+
+.permSearch {
+	height:20px;
+	background-color:#4682B4;
+	padding:1px;
+}
+
+.permSearch input {
+	font-size:9px;
+	width:90px;
+	margin-bottom:3px;
+}
+
+/* for mozilla */
+html>body .permSearch input {
+	margin-left:3px;
+	height:16px;
+}
+
+.permSearch select {
+	height:14px;
+	font-size:9px;
+	margin-bottom:3px;
+}

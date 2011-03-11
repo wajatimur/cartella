@@ -1,0 +1,86 @@
+
+.errorMessage
+{
+	padding:10px;
+}
+
+#taskListDiv
+{
+  height:200px;
+  overflow:auto; 
+}
+
+#taskTable
+{
+  width:100%;
+}
+ 
+.taskHeaderCell
+{
+  text-align:center;
+  border-bottom:1px solid #BABABA;
+  border-right:1px solid #BABABA; 
+  font-weight:bold;
+  padding-left:4px;
+  padding-right:4px;
+}
+ 
+.taskListRow
+{
+  border-right:1px solid #BABABA;
+}
+ 
+.taskListRow:hover
+{
+  background-color:lightyellow;
+  cursor:pointer;
+}
+
+.taskListRowSelected
+{
+	background-color:lightblue;
+  border-right:1px solid #BABABA;
+}
+ 
+.taskListRowSelected:hover
+{
+  cursor:pointer;
+}
+ 
+.taskListCell
+{
+  width:40%;
+  padding:4px;
+  border-bottom:1px solid #BABABA;
+}
+ 
+.taskListCellCenter
+{
+  width:20%;
+  text-align:center;
+  padding:4px;
+  border-bottom:1px solid #BABABA;
+}
+
+#taskComment
+{
+	width:100%;
+	height:150px;
+}
+
+.taskCell
+{
+	padding:10px;
+}
+
+.taskLeftColumn
+{
+	width:49%;
+	float:left;
+}
+
+.taskRightColumn
+{
+	width:49%;
+	float:left;
+}

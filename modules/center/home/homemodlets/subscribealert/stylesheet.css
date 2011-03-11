@@ -1,0 +1,28 @@
+
+.alertDiv {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.alertDiv a:link {
+	color:darkslategray;
+}
+
+.alertDiv a:visited {
+	color:darkslategray;
+}
+
+.alertDiv a:hover {
+	color:red;
+}
+
+.alertDiv input {
+	margin-top:-2px;
+	margin-right:5px;
+}
+
+.alertInst {
+	float:left;
+	font-weight:normal;
+	margin-right:5px;
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+<!--
+	<div_id> -> the id of the div we'll put our forms into
+	<form>
+		<title>My Select</title>  header over form
+		<name>form_name</name>		html form name
+		<type>select</type>				type (textbox,textarea,select)
+		<table>state</table>			table to get data from
+		<title_field>id</title_field>		name field in table (contains entry names))
+		<data_field>name</data_field>		value field in table (contains entry values) 
+		<data>field</data>	field in passed data which contains stored value
+		###### checkbox forms #########
+		<data_node>field</data_node> overrides "data" as the $_REQUEST field we pull our data from
+		<save_table>table</save_table> overrides "table" as the table we save our records to
+		###############################
+		<central>yes</central>  query central database for records
+	</form>
+
+-->
+
+	<div id="contentLeft" class="leftColumn">
+		<form>
+			<title>First Name</title>
+			<name>firstName</name>
+			<data>first_name</data>
+			<type>textbox</type>
+			<onchange>upperCase('firstName')</onchange>
+		</form>
+		<form>
+			<title>Last Name</title>
+			<name>lastName</name>
+			<data>last_name</data>
+			<type>textbox</type>
+			<onchange>upperCase('lastName')</onchange>
+		</form>
+		<form>
+			<title>Address</title>
+			<name>address</name>
+			<data>address</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Address2</title>
+			<name>address2</name>
+			<data>address2</data>
+			<type>textbox</type>
+			
+		</form>
+		<form>
+			<title>City</title>
+			<name>city</name>
+			<data>city</data>
+			<type>textbox</type>
+			
+		</form>
+		<form>
+			<title>State</title>  
+			<name>state</name>
+			<type>select</type>
+			<table>state</table>
+			<title_field>abbr</title_field>
+			<data_field>abbr</data_field>	
+			<data>state</data>	
+		</form>
+		<form>
+			<title>Zip</title>
+			<name>zip</name>
+			<data>zip</data>
+			<type>textbox</type>
+			
+		</form>
+		<form>
+			<title>Country</title>  
+			<name>country</name>
+			<data>country</data>
+			<type>textbox</type>
+		</form>
+
+	</div>
+
+	<div id="contentRight" class="rightColumn">
+
+		<form>
+			<title>Email</title>
+			<name>email</name>
+			<data>email</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Home Phone</title>
+			<name>homePhone</name>
+			<data>home_phone</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Work Phone</title>
+			<name>workPhone</name>
+			<data>work_phone</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Work Extension</title>
+			<name>workExt</name>
+			<data>work_ext</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Mobile</title>
+			<name>mobile</name>
+			<data>mobile</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Fax</title>
+			<name>fax</name>
+			<data>work_fax</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Website</title>
+			<name>website</name>
+			<data>website</data>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Company Name</title>
+			<name>companyName</name>
+			<type>textbox</type>
+			<data>company_name</data>
+		</form>
+
+	</div>
+
+</data>
+
+

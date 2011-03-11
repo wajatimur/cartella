@@ -1,0 +1,9 @@
+
+.taskCell {
+	padding:10px;
+}
+
+#taskComment {
+	height:200px;
+	width:500px;
+}

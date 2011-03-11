@@ -1,0 +1,243 @@
+
+BODY {
+	padding:0px;
+	margin:15px;
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	background-color:white;
+	height:100%;
+}
+
+TABLE {
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	background-color:white;
+}
+
+FORM {
+	margin:0px;
+	padding:0px;
+}
+
+ul {
+}
+
+/* ie only */
+*ul {
+	padding-left:10px;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+a {text-decoration: none}
+a:link {color:blue;}
+a:visited {color:blue;}
+a:hover {color:red;}
+
+
+/**********************************************
+	Site Header
+**********************************************/
+
+.siteContainer {
+}
+
+/************************************************************
+	generic classes
+************************************************************/
+
+/* put after floating divs */
+.cleaner {
+	clear:both;
+	height:0px;
+	font-size:0px;
+	border:none;
+	margin:0; padding:0;
+	background:transparent;
+}
+
+/* generic for created left/right column page */
+.leftColumn {
+	float:left;
+	width:48%;
+	padding-right:10px;
+}
+
+.rightColumn {
+	float:left;
+	width:48%;
+	padding-left:10px;
+}
+
+.formHeader {
+	color:darkblue;
+	font-weight:bold;
+}
+
+.errorMessage {
+
+	font-size:12px;
+	color:red;
+	font-weight:bold;
+
+}
+
+.successMessage {
+
+	font-size:12px;
+	color:green;
+	font-weight:bold;
+
+}
+
+.statusMessage {
+	font-weight:bold;
+	color:darkslategray;
+	padding:5px;
+}
+
+.pageHeader {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid black;
+	text-align:left;
+}
+
+
+#siteStatus {
+	padding:1px;
+	background-color:#F6F6F6;
+	border:1px solid #DADADA;
+	color:#333333;
+	top:0px;
+	position:absolute;
+	display:none;
+	z-index:50;
+	width:350px;
+	white-space:nowrap;
+}
+
+#siteStatus img {
+	float:left;
+	margin-left:5px;
+}
+
+#siteStatusMessage {
+	float:left;
+	color:#5e5e5e;
+	font-weight:bold;
+	margin-left:10px;
+	margin-top:8px;
+}
+
+/* reg toolbar button */
+.siteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+}
+
+.siteToolbarBtn img {
+  margin-right:5px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+/* ie toolbar btn */
+.ieSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	width:auto;
+	overflow:visible;
+	padding-right:10px;
+}
+
+.ieSiteToolbarBtn img {
+	height:15px;
+	width:15px;
+  margin-top:-1px;
+  margin-left:5px;
+	margin-right:5px;
+}
+
+/* safari toolbar btn */
+.safariSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	padding-top:5px;
+}
+
+.safariSiteToolbarBtn img {
+  margin-right:5px;
+  margin-left:-2px;
+	margin-top:-2px;
+}
+
+/* site toolbar (generic toolbar class to use in site) */
+#siteToolbar {
+	background-color:#DADADA;
+	border:1px solid darkslategray;
+	height:24px;
+}
+
+.siteToolbarCell {
+	float:left;
+	padding:2px;
+	margin-right:5px;
+}
+
+#siteToolbarRight {
+	width:33%;
+	float:left;
+	border:1px solid #DADADA;
+	text-align:right;
+}
+
+#siteToolbarLeft {
+	width:49%;
+	float:left;
+	padding-top:1px;
+	border:1px solid #DADADA;
+	font-weight:bold;
+}
+
+#siteToolbarLeft button {
+	margin-top:-4px;
+}
+
+#screenKiller {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:#DADADA;
+	z-index:600;
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+#screenMessage {
+	z-index:601;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:white;
+}
+
+.logoutBox {
+	border:1px solid darkblue;	
+	padding:10px;
+}
+
+.logoutBox div {
+	text-align:center;
+}
+
+.logoutMessage {
+	font-weight:bold;
+	color:darkblue;
+	margin-bottom:10px;
+}

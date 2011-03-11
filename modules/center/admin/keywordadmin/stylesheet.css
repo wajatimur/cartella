@@ -1,0 +1,34 @@
+
+.leftColumn {
+	float:left;
+	width:47%;
+}
+
+.rightColumn {
+	float:left;
+	width:47%;
+}
+
+.selectList {
+
+        height:100px;
+        overflow:auto;
+        border:1px solid #DADADA;
+
+}
+
+.selectList div {
+
+        padding:2px;
+        border-bottom:1px solid #DADADA;
+
+}
+
+.keywordCell {
+	padding:8px;
+}
+
+#required {
+	margin-right:3px;
+	margin-left:10px;
+}

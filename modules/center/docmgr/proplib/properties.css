@@ -1,0 +1,71 @@
+#keywordList {
+  width:98%;
+}
+
+.keywordRow td {
+  padding:3px;
+}
+
+.keywordLabel {
+  padding-top:2px;
+  padding-right:5px;
+  font-weight:bold;
+}
+
+.keywordEntry {
+  float:left;
+}
+
+/******************************************************
+  object properties
+******************************************************/
+#name {
+  width:400px;
+}
+
+#summary {
+  width:400px;
+  height:100px;
+}
+
+.propCell {
+  margin-bottom:20px;
+}
+
+/**************************************************
+	put our common stylesheet declarations here
+	because every module calls this file, otherwise
+	we just have to include yet another file
+**************************************************/
+
+#content {
+	padding:15px;
+}
+
+#breadcrumbs {
+  margin-bottom:3px;
+}
+
+.toolbar .tbTitle
+{
+  width:50%;
+  text-align:right;
+}
+
+#container {
+  width:100%;
+}
+
+#container .leftColumn {
+  width:49%;
+  padding:0px;
+  margin:0px;
+}
+
+#container .rightColumn {
+  width:49%;
+  padding:0px;
+  margin:0px;
+}
+
+

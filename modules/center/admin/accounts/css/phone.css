@@ -1,0 +1,50 @@
+
+.locSwitcher {
+	font-size:10px;
+	margin-top:0px;
+}
+
+#locId {
+	margin-top:-8px;
+	margin-right:5px;
+	margin-left:2px;
+}
+
+#astPhone {
+	width:100px;
+}
+
+#astVMPassword {
+	width:100px;
+}
+
+#astDirect {
+	width:100px;
+}
+
+#astFax {
+	width:100px;
+}
+
+#longDistanceCode {
+	width:50px;
+}
+
+.availPhone:hover {
+	cursor:pointer;
+}
+
+#availList {
+	height:375px;
+	overflow:auto;
+	border:1px solid #DADADA;
+}
+
+#availList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#availList div:hover {
+	cursor:pointer;
+	background-color:lightyellow;
+}

@@ -1,0 +1,11 @@
+	<module>
+		<module_name>Edit Contact</module_name>
+		<link_name>editcontact</link_name>
+		<hidden></hidden>
+		<sort_order>2</sort_order>
+		<module_description>container for sub modules</module_description>
+    <helper>home</helper>
+    <helper>searchcontacts</helper>
+    <helper_sort>2</helper_sort>
+	</module>
+

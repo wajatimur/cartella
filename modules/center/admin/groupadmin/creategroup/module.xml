@@ -1,0 +1,10 @@
+	<module>
+		<module_name>Create New Group</module_name>
+		<link_name>creategroup</link_name>
+		<hidden>1</hidden>
+		<auth_only>1</auth_only>
+		<sort_order>1</sort_order>
+		<module_description>Use this utility to create a new group.</module_description>
+		<helper>groupadmin</helper>
+	</module>
+

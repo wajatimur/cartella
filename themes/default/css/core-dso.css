@@ -1,0 +1,173 @@
+
+BODY {
+	padding:0px;
+	margin:0px;
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	background-color:white;
+	height:100%;
+}
+
+TABLE {
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	background-color:white;
+}
+
+FORM {
+	margin:0px;
+	padding:0px;
+}
+
+
+#siteStatus {
+	padding:1px;
+	background-color:#F6F6F6;
+	border:1px solid #DADADA;
+	color:#333333;
+	top:0px;
+	position:absolute;
+	display:none;
+	z-index:50;
+	width:300px;
+	white-space:nowrap;
+}
+
+#siteStatus img {
+	float:left;
+	margin-left:5px;
+}
+
+#siteStatusMessage {
+	float:left;
+	color:#5e5e5e;
+	font-weight:bold;
+	margin-left:10px;
+	margin-top:8px;
+}
+
+
+/* reg toolbar button */
+.siteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+}
+
+.siteToolbarBtn img {
+  margin-right:5px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+/* ie toolbar btn */
+.ieSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	width:auto;
+	overflow:visible;
+	padding-right:10px;
+}
+
+.ieSiteToolbarBtn img {
+	height:15px;
+	width:15px;
+  margin-top:-1px;
+  margin-left:5px;
+	margin-right:5px;
+}
+
+/* safari toolbar btn */
+.safariSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	padding-top:5px;
+}
+
+.safariSiteToolbarBtn img {
+  margin-right:5px;
+  margin-left:-2px;
+	margin-top:-2px;
+}
+
+/* site toolbar (generic toolbar class to use in site) */
+#siteToolbar {
+	background-color:#DADADA;
+	border:1px solid darkslategray;
+	height:24px;
+}
+
+.siteToolbarCell {
+	float:left;
+	padding:2px;
+	margin-right:5px;
+}
+
+#siteToolbarRight {
+	width:33%;
+	float:left;
+	border:1px solid #DADADA;
+	text-align:right;
+}
+
+#siteToolbarLeft {
+	width:49%;
+	float:left;
+	padding-top:4px;
+	border:1px solid #DADADA;
+	font-weight:bold;
+}
+
+#siteToolbarLeft button {
+	margin-top:-4px;
+}
+
+/* moduleNavFooter button */
+.siteFooterBtn {
+  font-size:8px;
+  height:14px;
+  white-space:nowrap;
+}
+
+.siteFooterBtn img {
+  margin-right:2px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+/* ie toolbar btn */
+.ieSiteFooterBtn {
+  font-size:8px;
+  height:14px;
+  white-space:nowrap;
+	width:auto;
+	overflow:visible;
+	padding-right:10px;
+}
+
+.ieSiteFooterBtn img {
+	height:12px;
+	width:12px;
+  margin-top:-1px;
+  margin-left:5px;
+	margin-right:5px;
+}
+
+/* safari toolbar btn */
+.safariSiteFooterBtn {
+  font-size:10px;
+  height:14px;
+  white-space:nowrap;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.safariSiteFooterBtn img {
+	height:12px;
+	width:12px;
+	margin-right:2px;
+}

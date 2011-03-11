@@ -1,0 +1,201 @@
+
+#browseContent {
+	width:100%;
+}
+
+#browseSearch {
+	display:none;
+}
+
+#objectDescription {
+	width:100%;	
+	height:140px;
+}
+
+#summary {
+  width:100%;
+  height:140px;
+}
+
+.errorMessage {
+	padding:10px;
+}
+
+#browseTree {
+	padding-left:10px;
+	padding-top:5px;
+	max-height:300px;
+	overflow:auto;
+}
+
+/********** upload popup *************/
+
+#popupContainer {
+  position:absolute;
+  background-color:lightyellow;
+  border:2px solid black;
+  -moz-border-radius:10px;
+  display:none;
+  z-index:500;
+}
+
+.popupContainer {
+  padding:20px;
+}
+
+.popupCell {
+  padding:5px;
+  padding:10px;
+}
+
+.popupCloseBtn {
+  float:right;
+  margin:10px;
+}
+
+/********* obj search *********/
+#messageSearch {
+  float:right;  
+  margin-right:10px;
+  background-image:url("../../../../themes/default/images/icons/search-field.gif");
+  width:182px;
+  height:20px;
+  margin-top:3px;
+}
+ 
+#messageSearch input {
+  font-size:10px;
+  height:12px;   
+  width:137px;
+	margin-top:2px;   
+  border:1px solid white;
+  margin-left:3px;
+  float:left;
+}
+ 
+#searchOptionDiv:hover #searchOptions {
+  display:block;
+}
+ 
+#searchOptionImg {
+  float:left;
+  cursor:pointer;
+}
+ 
+#searchOptions {
+  margin-top:18px;
+  margin-left:5px;
+  position:absolute;
+  display:none;
+  width:150px; 
+  border:1px solid black;
+  background-color:white;
+  z-index:1000;
+  border:1px solid black;
+}
+
+
+#searchOptions li {
+  background-color:white;
+  list-style-type:none;  
+  padding:5px;
+  cursor:pointer;
+  border-bottom:1px solid #DADADA;
+}
+ 
+#searchOptions li:hover {
+  background-color:lightblue;
+}
+ 
+.soptSelected {
+  font-weight:bold;
+}
+
+/*************** pager **************/
+#browsePager {
+	display:none;
+  font-size:12px;
+	padding-top:5px;
+	height:20px;
+  background-color:#E8E8E8;
+	border-top:1px solid white;
+	border-bottom:1px solid #BABABA;
+	padding-left:10px;
+}
+
+#browsePager .leftColumn {
+	float:left;
+	width:50%;
+}
+
+#browsePager .rightColumn {
+	float:right;
+	text-align:right;
+	padding-right:15px;
+	width:45%;
+}
+
+
+#browsePager span {
+  margin-left:4px; 
+  margin-right:4px; 
+}
+
+#browsePager span a {
+	margin-left:2px;
+	margin-right:2px;
+}
+
+#browsePager img {
+  margin-left:2px;
+  margin-right:2px;
+}
+
+#browsePager img:hover {
+	cursor:pointer;
+}
+
+.curSearchPage {
+	margin-left:2px;
+	margin-right:2px;
+	font-weight:bold;
+}
+
+.browseThumb {
+	float:left;
+	width:150px;
+	height:150px;
+	padding:10px;
+	border:1px solid white;
+}
+
+.browseThumb div {
+	text-align:center;
+	width:100%;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.browseThumb img {
+	text-align:center;
+	margin-left:3px;
+	margin-right:3px;
+	max-height:75px;
+	max-width:75px;
+}
+
+.browseThumb img:hover {
+	cursor:pointer;
+}
+
+.browseThumb:hover {
+	border:1px solid lightblue;
+}
+
+.bookmark {
+	padding:2px 2px 2px 5px;
+	max-height:250px;
+	overflow:auto;
+	border-bottom:1px solid #DADADA;
+}
+

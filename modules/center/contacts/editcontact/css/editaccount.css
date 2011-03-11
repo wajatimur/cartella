@@ -1,0 +1,113 @@
+#accountList {
+
+	overflow:auto;
+	width:200px;
+	height:200px;
+	border: 1px solid #DADADA;
+
+}
+
+#accountList ul {
+
+	margin-left:0px;
+	margin-top:0px;
+	padding-left:0px;
+
+}
+
+#accountList ul li {
+
+	margin-left:0px;
+	padding-left:5px;
+	border-bottom:1px solid #DADADA;
+
+}
+
+#accountList img {
+	margin-right:4px;
+}
+
+#accountList img:hover {
+	cursor:pointer;
+}
+
+#memberList {
+
+	overflow:auto;
+	width:200px;
+	height:200px;
+	border: 1px solid #DADADA;
+
+}
+
+#memberList ul {
+
+	padding-left:0px;
+	margin-left:0px;
+	margin-top:0px;
+
+}
+
+#memberList ul li {
+
+	border-bottom:1px solid #DADADA;
+	margin-left:0px;
+	padding-left:5px;
+
+}
+
+#memberList img:hover {
+	cursor:pointer;
+}
+
+#memberList img {
+	margin-right:4px;
+}
+
+#createcontact {
+	margin-top:10px;
+	margin-left:20px;
+}
+
+/* account question form */
+.accountQuestion {
+	margin:20px;
+}
+
+.accountform {
+	padding:5px;
+}
+
+.accountform div {
+	float:left;
+	margin-right:10px;
+}
+
+.accountform input {
+	float:left;
+	margin-left:10px;
+}
+
+/* account select section */
+#accountSelect {
+	visibility:hidden;
+	position:absolute;
+	display:none;
+	margin:20px;
+	width:500px;
+}
+
+#accountSelectHeader {
+	font-size:12px;
+	color:darkblue;
+	font-weight:bold;
+}
+
+.sumAgentRow {
+	padding:2px;
+}
+
+.sumAgentRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}

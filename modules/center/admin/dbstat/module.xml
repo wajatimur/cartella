@@ -1,0 +1,11 @@
+	<module>
+		<module_name>Database Statistics</module_name>
+		<link_name>dbstat</link_name>
+		<hidden>0</hidden>
+		<permissions>ADMIN</permissions>
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<sort_order>3</sort_order>
+		<module_description>View DocMGR's filesystem and database statistics</module_description>
+	</module>
+

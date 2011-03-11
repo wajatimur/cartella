@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div id="contentLeft" class="leftColumn">
+
+		<form>
+			<title>Use MS Office Control</title>
+			<name>editor</name>
+			<data>editor</data>
+			<type>select</type>
+			<defaultval>web</defaultval>
+			<option>
+				<title>Yes</title>
+				<data>msoffice</data>
+			</option>
+			<option>
+				<title>No</title>
+				<data>web</data>
+			</option>
+		</form>
+
+		<form>
+			<title>Language</title>
+			<name>language</name>
+			<data>language</data>
+			<type>select</type>
+			<defaultval>english</defaultval>
+			<option>
+				<title>English</title>
+				<data>english</data>
+			</option>
+		</form>
+
+	</div>
+
+</data>
+
+

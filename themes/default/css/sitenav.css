@@ -1,0 +1,176 @@
+/***************************************************************
+	sitenav.css
+
+	This file contains css for our main navigation tabs
+***************************************************************/
+
+/* an unselected tab */
+.modTab {
+    font-family: "Verdana","Arial","Sans Serif";
+    font-size:12px;
+    padding-top:2px;
+    padding-bottom:2px;
+    padding-left:10px;
+    background-color:#dfdfd1; 
+    border-bottom:1px solid #afafaf;
+ 
+}
+
+.modTabSelected {
+  font-family: "Verdana","Arial","Sans Serif";
+	font-size:12px;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	background-image:url("../../../themes/default/images/sitenavselect.png");
+	color:white;
+}
+
+.modTab:hover {
+	cursor:pointer;
+	background-image:url("../../../themes/default/images/sitenavselect.png");
+	color:white;
+}
+
+.modTabSelected:hover {
+	cursor:pointer;
+	color:lightyellow;
+}
+
+
+/* div containing all navigation links */
+
+.siteNav {
+  padding-top:10px;
+  border-top:3px solid #8f8f8f;
+  border-bottom:3px solid #8f8f8f;
+	width:197px;
+}
+
+/* sub section for navigation for a single module */
+.siteModNav {
+	font-weight:normal;
+	background-color:white;
+	border-bottom:1px inset black;
+	border-top:1px inset black;
+}
+
+.siteModNavLink {
+	padding-left:20px;
+	padding-top:3px;
+	padding-bottom:3px;
+  color:darkslategray;
+	font-size:11px;
+	border-bottom:1px solid #DADADA;
+}
+
+.siteModNavLink:hover {
+  cursor:pointer;
+  color:darkblue;
+  background-color:lightyellow;
+}
+
+.siteModNavLink img {
+	margin-bottom:-3px;
+	margin-right:4px;
+	height:16px;
+	width:16px;
+}
+
+.siteModNav a:link{color:darkslategray;}
+.siteModNav a:visited{color:darkslategray;}
+.siteModNav a:hover{color:darkblue;}
+
+.siteModCtrl {
+	font-weight:bold;
+	padding-left:5px;
+	padding-top:4px;
+	padding-bottom:4px;
+}
+
+.siteModCtrl img {
+	float:right;
+}
+
+.siteModCtrl img:hover {
+	cursor:pointer;
+}
+
+.siteModFooter {
+	border-bottom:1px solid black;
+	background-image:url("../../../themes/default/images/modnav_footer.png");
+	background-repeat:repeat-x;
+	height:16px;
+}
+
+
+/* This is for our navigation history */
+.navHistory {
+	font: 10px bold "Verdana","Arial","Sans Serif";
+	padding:2px 20px 0px 20px;
+	height:20px;
+	font-weight:bold;
+}
+
+.navHistory a:link {
+	color:darkslategray;
+}
+.navHistory a:visited {
+	color:darkslategray;
+}
+.navHistory a:hover {
+	color:darkblue;
+}
+
+/* This is for our navigation history */
+.navHistoryTrain {
+	font: 10px bold "Verdana","Arial","Sans Serif";
+	padding:2px 20px 0px 20px;
+	height:20px;
+	color:white;
+}
+
+.navHistoryTrain a:link {
+	color:white;
+}
+.navHistoryTrain a:visited {
+	color:white;
+}
+.navHistoryTrain a:hover {
+	color:darkblue;
+}
+
+/* This is for our navigation history */
+#siteNavHistory {   
+        padding:2px 20px 0px 20px;
+        height:20px;
+        font-weight:bold;
+				font-size:10px;
+				margin-top:2px;
+}
+ 
+#siteNavHistory a:link {
+        color:darkslategray;
+}
+#siteNavHistory a:visited {
+        color:darkslategray;
+}
+#siteNavHistory a:hover {
+        color:darkblue;
+}
+ 
+.siteNavHistoryDiv {
+        float:left;
+}
+ 
+.siteNavHistoryImg {
+  float:left;
+  padding-left:2px;
+  padding-right:2px;
+}
+ 
+.siteNavHistoryImg img {
+	margin-bottom:-1px;
+	margin-left:3px;
+	margin-right:3px;
+}

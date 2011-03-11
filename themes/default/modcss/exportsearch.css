@@ -1,0 +1,36 @@
+
+.exportCell {
+	float:left;
+	width:30%;
+}
+
+#optionList {
+	padding:10px;
+	background-color:#DADADA;
+}
+
+#optionBtns {
+	padding:10px;
+}
+
+.exportHeader {
+}
+
+.exportHeaderCell {
+	float:left;
+	font-weight:bold;
+}
+
+.exportResultCell {
+	float:left;
+	border:1px solid white;
+}
+
+.exportResultRow {
+	border-bottom:1px solid #DADADA;
+}
+
+#hideCtrl {
+	float:right;
+	font-weight:bold;
+}

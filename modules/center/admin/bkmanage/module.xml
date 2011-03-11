@@ -1,0 +1,11 @@
+	<module>
+		<module_name>Bookmark Manager</module_name>
+		<link_name>bkmanage</link_name>
+		<hidden>0</hidden>
+		<auth_only>1</auth_only>
+		<sort_order>2</sort_order>
+		<module_description>Manage bookmarks for a user</module_description>
+		<permissions>ADMIN</permissions>
+		<permissions>MANAGE_USERS</permissions>
+	</module>
+

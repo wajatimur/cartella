@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div id="contentLeft" class="leftColumn">
+
+		<form>
+			<title>Groups</title>
+			<name>groupId[]</name>
+			<type>checkbox</type>
+			<table>auth_groups</table>
+			<title_field>name</title_field>
+			<data_field>id</data_field>
+			<data>group_id</data> 
+			<sort>name</sort>
+		</form>
+		
+	</div>
+
+</data>
+
+

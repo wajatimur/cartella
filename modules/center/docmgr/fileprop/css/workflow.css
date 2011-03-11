@@ -1,0 +1,64 @@
+
+.workflowLeft {
+	width:47%;
+	float:left;
+	margin-right:30px;
+}
+
+.workflowRight {
+	float:right;
+	margin-top:10px;
+	width:47%;
+
+}
+
+.workflowList {
+	height:300px;
+	border:1px solid #DADADA;
+	overflow:auto;
+}
+
+.workflowListHeader {
+	margin-top:5px;
+}
+
+.workflowListHeader div {
+	float:left;
+	font-weight:bold;
+	width:33%;
+}
+
+.workflowRow {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+	height:17px;
+}
+
+.workflowRow div {
+	float:left;
+	width:33%;
+}
+
+.workflowRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.workflowCell {
+	padding-bottom:10px;
+}
+
+.workflowRecipAccount {
+	font-weight:bold;
+}
+
+.workflowRecipStatus {
+}
+
+.workflowRecipComment {
+	padding-left:10px;
+}
+
+.workRecipRow {
+	margin-bottom:10px;
+}

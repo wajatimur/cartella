@@ -1,0 +1,55 @@
+
+#logs {
+	height:500px;
+	overflow:auto;
+}
+
+#logList td {
+	border-bottom:1px solid #DADADA;
+}
+
+#logList tr:hover {
+	background-color:lightyellow;
+}
+
+.time {
+	width:12%;
+}
+.message {
+	width:20%;
+}
+.level {
+	width:5%;
+	text-align:center;
+}
+.category {
+	width:10%;
+	text-align:center;
+}
+.ipaddress{
+	width:10%;
+}
+.userid {
+	width:5%;
+	text-align:center;
+}
+.login {
+	width:5%;
+	text-align:center;
+}
+.childlocid{
+	width:5%;
+	text-align:center;
+}
+.sql {
+	width:5%;
+	text-align:center;
+}
+.getdata {
+	width:5%;
+	text-align:center;
+}
+.postdata {
+	width:5%;
+	text-align:center;
+}

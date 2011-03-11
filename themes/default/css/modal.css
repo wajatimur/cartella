@@ -1,0 +1,41 @@
+BODY {
+	background-color:buttonface;
+}
+
+.siteBody {
+	background-color:buttonface;
+}
+
+.sectionContent {
+	background-color:buttonface;
+}
+
+.sectionContainer {
+	background-color:buttonface;
+}
+
+INPUT {
+	border:1px solid black;
+}
+
+.modalText {
+	font-weight:bold;
+}
+
+.modalButtons {
+	float:right;
+	margin-right:20px;
+	padding-top:15px;
+}
+
+.modalButtons input {
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	bacground-color:#DCDCDC;
+}
+
+
+
+

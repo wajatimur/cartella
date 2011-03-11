@@ -1,0 +1,13 @@
+	<module>
+		<module_name>Permissions</module_name>
+		<link_name>groupperm</link_name>
+		<hidden></hidden>
+		<permissions>ADMIN</permissions>
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<sort_order>3</sort_order>
+		<module_description>Modify account permissions for this application.</module_description>
+		<image>permissions.png</image>
+		<everyone>1</everyone>
+	</module>
+

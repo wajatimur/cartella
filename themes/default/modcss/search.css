@@ -1,0 +1,146 @@
+
+.searchBarCell {
+	float:left;
+	width:24%;
+	margin-bottom:5px;
+	font-size:10px;
+	height:36px;
+}
+
+.searchBarCell input {
+	font-size:10px;
+	font-family:Tahoma;
+	height:18px;
+}
+
+.searchBarCell select {
+	font-size:10px;
+	font-family:Tahoma;
+	height:16px;
+}
+
+#setAsDefault {
+	margin-top:12px;
+	height:18px;
+}
+
+.resultRow {
+	padding:3px;
+	border-bottom:1px solid #DADADA;
+}
+
+.resultRow a {
+	font-weight:bold;
+	color:darkslategray;
+}
+
+.summaryHeader {
+	width:30%;
+	float:left;
+	text-align:center;
+}
+
+a.sortLink {
+	color:white;
+	float:none;
+	font-weight:bold;
+}
+a.sortLink:link{color:white;}
+a.sortLink:visited{color:white;}
+a.sortLink:hover{color:white;text-decoration:underline;}
+
+.sortImage img {
+	margin-bottom:-3px;
+}
+
+
+.resultHeader {
+	width:14%;
+	float:left;
+	text-align:center;
+}
+
+.statusHeader {
+	width:10%;
+	float:left;
+	text-align:center;
+}
+
+.dateCreateHeader {
+	width:10%;
+	float:left;
+	text-align:center;
+}
+
+.dateModifyHeader {
+	width:19%;
+	float:left;
+	text-align:center;
+}
+
+.summaryCell {
+	width:30%;
+	float:left;
+}
+
+.resultCell {
+	width:14%;
+	float:left;
+	text-align:center;
+}
+
+.statusCell {
+	float:left;
+	text-align:center;
+	width:10%;
+}
+
+.dateCreateCell {
+	float:left;
+	text-align:center;
+	width:10%;
+}
+
+.dateModifyCell {
+	float:left;
+	text-align:center;
+	width:19%;
+}
+
+
+.groupDiv {
+	margin-top:10px;	
+}
+
+.groupHeader {
+	text-decoration:underline;
+	margin-left:3px;
+	font-weight:bold;	
+	font-size:14px;
+}
+
+.groupIssue {
+	margin-left:15px;
+}
+
+#searchFilter {
+	height:118px;
+}
+
+#searchResults {
+	min-height:350px;
+}
+
+.boxContent {
+	padding:10px;
+}
+
+#locationId {
+	width:150px;
+}
+
+#projectId {
+	width:150px;
+}
+
+

@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Save RSS Feed</module_name>
+		<link_name>saverssfeed</link_name>
+		<hidden>1</hidden>
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<module_description>Container for common processing modules</module_description>
+	</module>
+

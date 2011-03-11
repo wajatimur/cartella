@@ -1,0 +1,23 @@
+.selectList {
+	border:1px solid black;
+	overflow:auto;
+	margin:0px;
+}
+
+.selectList li {
+	border-bottom:1px solid #DCDCDC;
+	list-style-type:none;
+}
+
+.selectList li:hover{
+	background-color:#4682B4;
+	color:white;
+}
+
+.selectList li:hover a {
+	color:white;
+}
+
+.toolBar {
+	margin-bottom:5px;
+}

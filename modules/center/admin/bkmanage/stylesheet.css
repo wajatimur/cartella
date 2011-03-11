@@ -1,0 +1,36 @@
+
+.bkCell {
+	margin-bottom:20px;
+}
+
+.leftColumn {
+	padding-left:20px;
+	float:left;
+	width:47%;
+}
+
+.rightColumn {
+	float:left;
+	width:47%;
+}
+
+#bkList {
+	width:250px;
+	margin-top:5px;
+}
+
+#bkList div {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+#bkList div:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+#toolbarRight select {
+	float:right;
+	margin-right:10px;
+	margin-bottom:-2px;
+}

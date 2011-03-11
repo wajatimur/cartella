@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Account Info</module_name>
+		<link_name>accountinfo</link_name>
+		<hidden>1</hidden>
+		<auth_only>1</auth_only>
+		<sort_order>2</sort_order>
+		<module_description>Manage account groups and their permissions.</module_description>
+	</module>
+

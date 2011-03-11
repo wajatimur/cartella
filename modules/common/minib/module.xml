@@ -1,0 +1,10 @@
+	<module>
+		<module_name>MiniB</module_name>
+		<link_name>minib</link_name>
+		<hidden>1</hidden>
+		<template>blank</template>
+		<perm_error></perm_error>
+		<auth_only>1</auth_only>
+		<module_description>Container for common processing modules</module_description>
+	</module>
+

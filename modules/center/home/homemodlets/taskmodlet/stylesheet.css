@@ -1,0 +1,66 @@
+
+#taskList {
+	max-height:200px;
+	overflow:auto;
+}
+
+
+#taskList li {
+  list-style-type:none;
+  border-bottom:1px solid #DADADA;
+  padding:2px;
+}
+
+#taskList li:hover {
+  cursor:pointer;
+  background-color:white;
+}
+
+.expiredTask {
+	color:red;
+}
+
+.curTask {
+}
+
+#taskOptDiv {
+	float:left;
+	margin-right:10px;
+}
+
+#taskOpts {
+	display:none;
+	position:absolute;
+	background-color:lightblue;
+	border:1px solid darkslategray;
+	margin-left:-80px;
+	z-index:50;
+}
+
+#taskOpts div div {
+	padding:2px;
+}
+
+#taskOpts div div:hover {
+	background-color:white;
+}
+
+#sortOpts {
+	border-bottom:1px solid darkslategray;
+}
+
+#dateOpts {
+	border-bottom:1px solid darkslategray;
+}
+
+#filterOpts {
+}
+
+#taskOptDiv:hover #taskOpts {
+	display:block;
+	cursor:pointer;
+}
+
+.selected {
+	font-weight:bold;
+}

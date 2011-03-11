@@ -1,0 +1,10 @@
+	<module>
+		<module_name>Delete Contact</module_name>
+		<link_name>deletecontact</link_name>
+		<hidden>1</hidden>
+		<sort_order>2</sort_order>
+		<module_description>for deleting a contact</module_description>
+		<custom_perm>EDIT_CONTACT</custom_perm>
+		<template>modal</template>
+	</module>
+

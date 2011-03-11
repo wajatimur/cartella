@@ -1,0 +1,56 @@
+
+#matchList {
+	width:90%;
+	height:300px;
+	border:1px solid #DADADA;
+	overflow:auto;
+
+}
+
+.leftColumn {
+	padding:10px;
+	width:40%;
+}
+
+.rightColumn {
+	padding-left:20px;
+	padding-top:10px;
+	padding-right:10px;
+	width:50%;
+}
+
+.matchEntry {
+	border-bottom:1px solid #DADADA;
+	padding-left:3px;
+	padding-right:3px;
+	cursor:pointer;
+
+}
+
+.matchEntry:hover {
+	color:white;
+	background-color:slateblue;
+}
+
+.matchEntry:hover .matchName {
+	color:white;
+}
+
+.matchEntry:hover .matchAddress {
+}
+
+.matchName {
+	color:darkslategray;
+}
+
+.matchAddress {
+	padding-left:7px;
+}
+
+#instructions {
+	list-style-type:decimal;
+}
+
+#instructions li {
+	margin-left:10px;
+}

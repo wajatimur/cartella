@@ -1,0 +1,8 @@
+	<module>
+		<module_name>Email</module_name>
+		<link_name>createemail</link_name>
+		<hidden>0</hidden>
+		<sort_order>4</sort_order>
+		<module_description></module_description>
+	</module>
+

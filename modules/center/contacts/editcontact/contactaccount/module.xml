@@ -1,0 +1,10 @@
+	<module>
+		<module_name>Contact Accounts</module_name>
+		<link_name>contactaccount</link_name>
+		<hidden>1</hidden>
+		<sort_order>5</sort_order>
+		<auth_only>1</auth_only>
+		<template>empty</template>
+		<custom_perm>EDIT_CONTACT</custom_perm>
+	</module>
+

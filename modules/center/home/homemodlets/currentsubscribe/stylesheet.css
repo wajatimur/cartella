@@ -1,0 +1,18 @@
+
+.subDiv {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.subDiv a:link {
+	color:darkslategray;
+}
+
+.subDiv a:visited {
+	color:darkslategray;
+}
+
+.subDiv a:hover {
+	color:red;
+}
+

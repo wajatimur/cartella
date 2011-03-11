@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Save Task</module_name>
+		<link_name>savetask</link_name>
+		<hidden>1</hidden>
+		<sort_order>2</sort_order>
+		<module_description>container for sub modules</module_description>
+		<template>empty</template>
+	</module>
+

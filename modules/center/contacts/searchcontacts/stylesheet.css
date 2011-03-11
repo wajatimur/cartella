@@ -1,0 +1,144 @@
+.siteContainer {
+  margin:0px;
+  padding:0px;
+}
+
+/********************************
+  toolbar
+********************************/
+.toolbar {
+  background-color:#E8E8E8;
+	border-bottom:1px solid #BABABA;
+	border-top:1px solid white;  height:25px;
+  padding-left:5px;
+}
+
+
+.toolbarCell {
+  background-color:#E8E8E8;
+  white-space:nowrap;
+  float:left;
+  padding-top:5px;
+  padding-left:7px;
+  padding-right:7px;
+  padding-bottom:4px;
+}
+
+.toolbarCell:hover {
+  cursor:pointer;
+  background-color:white;
+}
+
+.toolbarCell img {
+  margin-right:4px;
+  margin-bottom:-1px;
+}
+
+.toolbarCell:hover .toolbarSub {
+  display:block;
+  margin-top:2px;
+  margin-left:-11px;
+  position:absolute;
+  background-color:white;
+  width:150px;
+  z-index:500;
+  border:1px solid black;
+}
+
+
+/***************************************
+	Search Results
+***************************************/
+
+.searchTitleCell {
+	float:left;
+	width:32%;
+}
+
+/* title for search result section */
+#searchResultTitle {
+	margin-top:10px;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:5px;
+	padding-left:5px;
+	padding-bottom:5px;
+}
+
+/* container for all search results */
+#searchResults {
+  width:100%;
+  table-layout:fixed;
+}
+
+/* header section for search results */
+
+#searchResultHeader th {
+  font-weight:bold;
+  padding-left:4px;
+  padding-right:4px;
+  white-space:nowrap;
+  font-size:12px;
+  text-align:center;
+  height:20px;
+  background-color:#b3bfb6;
+}
+
+#searchResultHeader th:hover {
+  cursor:pointer;
+  background-color:#DADADA;
+}
+
+#searchResultHeader th a:link {
+	color:black;
+}
+#searchResultHeader th a:visited {
+	color:black;
+}
+#searchResultHeader th a:hover {
+	text-decoration:underline;
+}
+
+
+
+/* search results */
+#searchResultContent {
+	border:1px solid blue;
+	min-height:480px;
+}
+
+#searchResultContent td {
+	border-bottom:1px solid #DADADA;
+	padding:4px;
+}
+
+.searchResultRow:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.nameHeaderColumn {
+	width:25%;
+	padding-left:5px;
+}
+
+.selectHeaderColumn {
+	width:30px;
+	text-align:center;
+}
+
+.selectHeaderColumn img {
+	margin-bottom:-2px;
+}
+
+.phoneHeaderColumn {
+	width:18%;
+}
+
+.emailHeaderColumn {
+	width:25%;
+}
+
+.phoneColumn {
+	text-align:center;
+}

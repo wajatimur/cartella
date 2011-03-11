@@ -1,0 +1,31 @@
+
+form
+{
+	margin:0px;
+	padding:0px;
+}
+
+.siteCenterColumnNoHeader
+{
+	margin:0px;
+	width:100%;
+}
+
+.toolbarSubRow
+{
+	background-color:white;
+	padding:4px;
+	cursor:normal;
+}
+
+#saveNotes
+{
+	width:390px;
+	height:200px;
+}
+
+#editor_content
+{
+	width:100%;
+	height:600px;
+}

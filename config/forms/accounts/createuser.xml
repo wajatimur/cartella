@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div>
+
+		<div class="sitePopupHeader">
+			Create New User
+		</div>
+		<div class="sitePopupCell">
+
+		<form>
+			<title>Login</title>
+			<name>login</name>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>First Name</title>
+			<name>firstName</name>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Last Name</title>
+			<name>lastName</name>
+			<type>textbox</type>
+		</form>
+		<form>
+			<title>Password</title>
+			<name>password</name>
+			<type>password</type>
+		</form>
+		<form>
+			<title>Again to confirm</title>
+			<name>password2</name>
+			<type>password</type>
+		</form>
+		<form>
+			<title>Email</title>
+			<name>email</name>
+			<type>textbox</type>
+		</form>
+	</div>
+	</div>
+</data>
+
+

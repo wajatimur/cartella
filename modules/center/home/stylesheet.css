@@ -1,0 +1,37 @@
+
+.ModletCtrl {
+	font-weight:bold;
+	padding-left:0px;
+}
+
+.ModletCtrl a {
+	float:right;
+}
+
+.ModletCtrl a:link {color:darkblue}
+.ModletCtrl a:visited {color:darkblue}
+.ModletCtrl a:hover {color:darkblue}
+
+.errorMessage {
+	padding:5px;
+}
+
+.modletEntry {
+  list-style-type:none;
+  border-bottom:1px solid #DADADA;
+  padding:2px;
+}
+
+.modletEntry:hover {
+  cursor:pointer;
+  background-color:white;
+}
+
+TABLE {
+  background-color:transparent;
+  font-size:10px;
+}
+
+.welcomeMsg {
+	margin-bottom:10px;
+}

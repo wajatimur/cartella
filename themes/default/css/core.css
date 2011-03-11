@@ -1,0 +1,1101 @@
+
+BODY {
+	padding:0px;
+	margin:0px;
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	background-color:white;
+	height:100%;
+}
+
+.loginPage {
+	background-image: url("../../../themes/default/images/login-bg.jpg");
+}
+
+TABLE {
+	font-family:Verdana,sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	background-color:white;
+}
+
+FORM {
+	margin:0px;
+	padding:0px;
+}
+
+ul {
+}
+
+/* ie only */
+*ul {
+	padding-left:10px;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+a {text-decoration: none}
+a:link {color:blue;}
+a:visited {color:blue;}
+a:hover {color:red;}
+
+
+/**********************************************
+	Site Header
+**********************************************/
+
+.siteMainContainer {
+	background-image:url("../../../themes/default/images/sidebar.png");
+	background-repeat:repeat-y;
+	z-index:3;
+	position:relative;
+}
+
+.siteLeftColumn {
+	background-image:url("../../../themes/default/images/sidebar.png");
+	background-position:right;
+	left:0px;
+	top:0px;
+	width:200px;	
+	z-index:3;	
+  background-color:#b3b8bf;
+	border-right:1px solid #8b8b8b;
+	height:100%;
+}
+
+.siteLeftColumnBack {
+	background-image:url("../../../themes/default/images/sidebar.png");
+	background-position:right;
+	left:0px;
+	width:200px;	
+	z-index:1;	
+  background-color:#b3b8bf;
+	border-right:1px solid #8b8b8b;
+	height:100%;
+	position:absolute;
+}
+
+.siteCenterColumn {
+	z-index:3;
+	background-color:white;
+}
+
+.siteCenterColumnNoHeader {
+	z-index:10;
+	margin:10px;
+	width:auto;
+	background-color:white;
+}
+
+.siteTitlePic {
+	font-size:34px;
+	font-weight:bold;
+	border-top:2px solid #4f4f4f;
+	border-right:5px solid #4f4f4f;
+	border-left:5px solid #4f4f4f;
+	border-bottom:3px solid #4f4f4f;
+	height:50px;
+}
+
+.siteMainToolbar {
+	background-color:#DCDCDC;
+	white-space:nowrap;
+	font-size:12px;
+	padding-top:16px;
+	padding-bottom:15px;
+	background-image:url("../../../themes/default/images/sitetoolbar.png");
+}
+
+.siteMainToolbarTrain {
+	background-color:red;
+	white-space:nowrap;
+	font-size:12px;
+	padding-top:17px;
+	padding-bottom:16px;
+	background-image:url("../../../themes/default/images/sitetoolbar_train.png");
+}
+
+.siteMainToolbar a:link {color:blue;}
+.siteMainToolbar a:hover {color:red;}
+.siteMainToolbar a:visited {color:blue;}
+
+.siteContainer {
+	margin-left:15px;
+	margin-top:10px;
+	margin-right:15px;
+}
+
+/**********************************************	
+	module navigation on top right
+	corner of the page
+**********************************************/
+.navBar {
+	float:right;
+	font-size:12px;
+	height:14px;
+	color:black;
+	float:right;
+	text-align:right;
+	white-space:nowrap;
+	margin-right:4px;
+	background-color:white;
+}
+
+.navBar a:link {color:blue;}
+.navBar a:visited {color:blue;}
+.navBar a:hover {color:red;}
+
+/*****************************************************************
+	stylesheet for the section display function
+*****************************************************************/
+
+.sectionHeader {
+	height:22px;
+  font-size:16px;
+	padding-left:5px;
+	font-weight:bold;
+	color:black;
+  text-align:left;
+	width:100%;
+}
+
+.sectionHeader A:link {color:white;}
+.sectionHeader A:hover {color:red;}
+.sectionHeader A:visited {color:white;}
+
+.sectionContent {
+	width:100%;
+}
+
+
+/************************************************************
+	generic classes
+************************************************************/
+
+/* put after floating divs */
+.cleaner {
+	clear:both;
+	height:0px;
+	font-size:0px;
+	border:none;
+	margin:0; padding:0;
+	background:transparent;
+}
+
+/* generic for created left/right column page */
+.leftColumn {
+	float:left;
+	width:48%;
+	padding-right:10px;
+}
+
+.rightColumn {
+	float:left;
+	width:48%;
+	padding-left:10px;
+}
+
+.formHeader {
+	color:darkblue;
+	font-weight:bold;
+}
+
+.errorMessage {
+
+	font-size:12px;
+	color:red;
+	font-weight:bold;
+
+}
+
+.successMessage {
+
+	font-size:12px;
+	color:green;
+	font-weight:bold;
+
+}
+
+.statusMessage {
+	font-weight:bold;
+	color:darkslategray;
+	padding:5px;
+}
+
+.pageHeader {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid black;
+	text-align:left;
+}
+
+.areaHeader {
+	font-weight:bold;
+	font-size:12px;
+}
+
+a.boldLink:link {
+	color:blue;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.boldLink:visited {
+	color:blue;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.boldLink:hover {
+	color:red;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+/******************************************************
+	finder classes
+******************************************************/
+
+.objectDescription {
+	color:darkslategray;
+}
+
+div.objectRelated {
+	color:darkslategray;
+}
+.objectRelated a:link {
+	color:darkslategray;
+}
+.objectRelated a:hover {
+	color:red;
+}
+.objectRelated a:visited {
+	color:darkslategray;
+}
+
+.browseFunctionLeft a:hover {
+        text-decoration:underline;
+        color:red;
+}
+
+.browseFunctionLeft {
+        background-color:#DCDCDC;
+        background-image:url("../../../themes/default/images/browseleftcorner.png");
+        background-repeat:no-repeat;
+        background-position:left;
+        padding:5px;
+	height:28px;
+	min-width:49%;
+	max-width:75%;
+	white-space:nowrap;
+}
+
+.browseFunctionRight a:hover {
+        text-decoration:underline;
+        color:red;
+}
+
+.browseFunctionRight {
+        background-color:#DCDCDC;
+        background-image:url("../../../themes/default/images/browserightcorner.png");
+        background-repeat:no-repeat;
+        background-position:right;
+        padding:5px;
+	height:28px;
+	min-width:24%;
+	max-width:50%;
+	white-space:nowrap;
+}
+
+.thumbContainer {
+ 	width:150px;
+	height:200px;
+        float:left;
+        padding:10px;
+        text-align:center;
+}
+
+
+.fileImage {
+	margin-top:20px;
+}
+
+.previewImage {
+	height:100px;
+	border-top:1px solid lightgrey;
+	border-left:1px solid lightgrey;
+	border-right:1px solid black;
+	border-bottom:1px solid black;
+}
+
+.folderImage {
+	height:100px;
+}
+
+.previewWindow {
+	border:2px solid black;
+	width:350px;
+	min-height:320px;
+	overflow:auto;
+	background-color:white;
+	z-index:100;
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+	-moz-border-radius: 15px;
+}
+
+.previewTitle {
+	font-weight:bold;
+	padding-bottom:5px;
+}
+
+.previewClose {
+	float:right;
+}
+
+.searchResultsTable {
+}
+
+.searchResultsOdd {
+	font-size:12px;
+	padding:3px 3px 3px 3px;
+	border-bottom:1px solid #DADADA;
+}
+
+.searchResultsEven {
+	font-size:12px;
+	padding:3px 3px 3px 3px;
+	border-bottom:1px solid #DADADA;
+}
+
+.searchResultsTitle {
+	font-size:12px;
+	font-weight:bold;
+	background-color:#4682B4;
+	color:white;
+	height:18px;
+}
+
+.searchResultsLeftTitle {
+	font-size:12px;
+	background-color:#4682B4;	
+	font-weight:bold;
+	color:white;
+	height:18px;
+	background-image:url("../../../themes/default/images/resultsleftcorner.png");
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.searchResultsRightTitle {
+	font-size:12px;
+	background-color:#4682B4;	
+	font-weight:bold;	
+	color:white;
+	height:18px;
+	background-image:url("../../../themes/default/images/resultsrightcorner.png");
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+.searchResultsTitle a:link {color:white}
+.searchResultsTitle a:hover {color:red}
+.searchResultsTitle a:visited {color:white}
+
+.searchButton {
+        font-size:10px;
+        font-family:Verdana;
+        height:18px;
+}
+
+
+/********************************************************
+	module link buttons
+********************************************************/
+
+a.moduleLink:link {
+	color:blue;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.moduleLink:visited {
+	color:blue;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.moduleLink:hover {
+	color:red;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+div.modButton {
+	width:125px;
+	background: #EFF7FF;
+	border: 1px solid #364970;
+}
+
+div.modButton a {
+       	/* The normal, unselected tabs. They are all links */
+	color: black;
+	font-weight: normal;
+	height: 1.2em;
+	margin-right: 0.5em;
+	padding: 0em 2em;
+}
+
+div.modButton a.selected {
+    /* The selected tab. There's only one of this */
+    background: #4682B4;
+    border: 1px solid #364970;
+    border-bottom: #4682B4 1px solid;
+    color: white;
+    font-weight: normal;
+
+}
+
+div.modButton a:hover {
+    background: #4682B4;
+    border-color: #364970;
+    color: white;
+}
+
+.subModuleHeader {
+	font-size:14px;
+	font-weight:bold;
+	border-bottom: 1px solid black;
+	text-align:left;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+.subModuleContent {
+	margin-left:10px;
+}
+
+
+/*******************************************
+	Forms
+*******************************************/
+
+.textbox {
+	font-size:12px;
+	font-family:Verdana,"Sans Serif";
+}
+
+.textarea {
+	font-size:12px;
+	font-family:Verdana,"Sans Serif";
+}
+
+.dropdown {
+	font-size:12px;
+	font-family:Verdana;
+}
+
+.dropdownSmall {
+	font-size:10px;
+	font-family:Verdana,"Sans Serif";
+	height:16px;
+}
+
+.submit {
+	font-size:11px;
+	font-family:Verdana,"Sans Serif";
+}
+
+.submitSmall {
+	font-size:9px;
+	font-family:Verdana,"Sans Serif";
+}
+
+
+/**********************************************
+	login form
+**********************************************/
+/* luke's additions to the login form */
+.login_form
+{
+	border: 0px solid #ff0000;
+	margin-top:40px;
+	width:100%;
+}
+
+div.login_form h1
+{
+	font-size: 16px;
+	text-align: center;
+}
+
+div.login_form p.errorMessage
+{
+	text-align: center;
+}
+
+div.login_form p.form_input, div.login_form p.form_submit
+{
+    font-weight: bold;
+	text-align: center;
+}
+
+
+.input_text {
+	width:125px;
+}
+
+div.login_form p.form_input input
+{
+}
+
+/* spacer div in left column */
+.lcSpacer {
+	height:5px;
+	background-color:#d6dde5;
+}
+
+
+/**************************************************
+	dropdown menus in finder
+**************************************************/
+
+div.makeMenu {
+	float:left;	
+}
+
+div.makeMenu div {
+	position:absolute;
+	margin-top:-5px;
+	margin-left:-220px;
+	min-width:250px;
+	display:none;	
+	border-top:1px solid black;
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+div.makeMenu div li {
+	padding:3px;
+	list-style-type:none;
+	background-color:lightblue;
+	border-bottom:1px solid black;
+	cursor:default;
+	text-align:left;
+	white-space:nowrap;
+}
+
+div.makeMenu div li:hover {
+	background-color:white;
+	cursor:default;	
+}
+
+div.makeMenu:hover {
+	z-index:300;
+}
+
+div.makeMenu:hover div {
+	display:block;
+	z-index:300;
+}
+
+/* ie-specific classes */
+.curRow {
+	background-color:white;
+}
+
+.regRow {
+	background-color:lightblue;
+}
+
+.objIcons {
+	margin-left:5px;
+}
+
+.ieSubRow {
+	margin-left:-14px;
+}
+
+/*******************************************************
+	object browse history menu in finder
+*******************************************************/
+div.menuNav {
+	float:left;
+}
+
+
+div.menuArrow:hover div.menuSubNav {
+	display:block;
+	border:1px solid black;
+}
+
+div.menuEntry {
+	float:left;
+	border:1px solid white;
+	padding:3px;
+}
+
+div.menuArrow {
+	float:left;
+	padding:3px;
+	border-left:1px solid white;
+	border-top:1px solid white;
+	border-bottom:1px solid white;
+	height:15px;
+}
+
+div.menuArrow:hover {
+	border-left:1px solid black;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	background-color:lightblue;
+}
+
+div.menuArrow img {
+	margin-top:3px;
+}
+
+div.menuSubNav {
+	display:none;
+	position:absolute;
+	background-color:lightblue;
+	margin-left:18px;
+	margin-top:-17px;
+	border:1px solid black;
+	width:220px;
+	max-height:300px;
+	overflow:auto;
+}
+
+div.menuSubNav div {
+	padding:3px;
+	border-bottom:1px solid black;
+	cursor:default;
+	min-width:100px;
+}
+
+div.menuSubNav div:hover {
+	background-color:white;
+}
+
+/* ie-only classes */
+div.menuSubNavRow {
+	background-color:lightblue;
+}
+
+div.menuSubNavRowOver {
+	background-color:white;
+}
+
+div.menuArrowOver {
+	float:left;
+	padding:3px;
+	border:1px solid black;
+	background-color:lightblue;
+}
+
+div.menuArrowOver img {
+	margin-top:3px;
+}
+
+
+/* for the simple nav menu */
+div.navMenu {
+	float:left;
+	padding-left:2px;
+	padding-right:2px;
+	color:darkslategray;
+}
+
+div.navMenu a:link{color:darkslategray;}
+div.navMenu a:visited{color:darkslategray;}
+div.navMenu a:hover{color:red;}
+
+div.navMenu img {
+	margin-top:4px;
+}
+
+#siteStatus {
+	padding:1px;
+	background-color:#F6F6F6;
+	border:1px solid #DADADA;
+	color:#333333;
+	top:0px;
+	position:absolute;
+	display:none;
+	z-index:50;
+	min-width:300px;
+	white-space:nowrap;
+}
+
+#siteStatus img {
+	float:left;
+	margin-left:5px;
+}
+
+#siteStatusMessage {
+	float:left;
+	color:#5e5e5e;
+	font-weight:bold;
+	margin-left:10px;
+	margin-top:8px;
+}
+
+/* for our left column menu list */
+.menuList {
+	list-style-type:none;
+	height:300px;
+}
+
+/* the entries in the menu list */
+.menuList div {
+	border-bottom:1px solid #DCDCDC;
+	padding-left:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+/* prevent sub divs from having a line too */
+.menuList div div{
+	border-bottom:0px solid #DCDCDC;
+}
+
+/* the links in each entry */
+.menuList div a {
+}
+
+/* icons for he entry */
+.menuList div img {
+	margin-bottom:-4px;
+}
+
+/* an extra control in the header of the menu list */
+#menuListCtrl {
+	float:right;
+	font-weight:bold;
+	padding-right:5px;
+}
+
+/* disabled links */
+a.disabledLink:link {
+	color:#DCDCDC;
+	cursor:default;
+}
+a.disabledLink:visited {
+	color:#DCDCDC;
+	cursor:default;
+}
+a.disabledLink:hover {
+	color:#DCDCDC;
+	cursor:default;
+}
+
+
+/****************************
+	search box
+****************************/
+
+#messageSiteSearch {
+  float:right;  
+  margin-right:20px;
+  background-image:url("../../../themes/default/images/icons/search-field.gif");
+  width:182px;
+  height:20px;
+  margin-top:1px;
+}
+ 
+#messageSiteSearch input {
+  font-size:10px;
+  height:12px;   
+  width:137px;   
+  border:1px solid white;
+  margin-left:3px;
+	margin-top:2px;
+  float:left;
+}
+ 
+#siteSearchOptionDiv:hover #siteSearchOptions {
+  display:block;
+}
+ 
+#siteSearchOptionImg {
+  float:left;
+  cursor:pointer;
+}
+
+#siteSearchOptions {
+  margin-top:18px;
+  margin-left:5px;
+  position:absolute;
+  display:none;
+  width:150px; 
+  border:1px solid black;
+  background-color:white;
+  z-index:1000;
+  border:1px solid black;
+}
+ 
+ 
+#siteSearchOptions li {
+  background-color:white;
+  list-style-type:none;  
+  padding:5px;
+  cursor:pointer;
+  border-bottom:1px solid #DADADA;
+}
+ 
+#siteSearchOptions li:hover {
+  background-color:lightblue;
+}
+ 
+.siteSoptSelected {
+  font-weight:bold;
+}
+
+/*****************************************
+	search result box
+*****************************************/
+
+#siteSearchResults {
+	overflow:auto;
+	width:350px;
+	position:absolute;
+	margin-left:-170px;
+	height:450px;
+	z-index:50;
+	border:1px solid darkslategray;
+	background-color:white;
+	margin-top:20px;
+}
+
+.siteSearchResultContainer {
+}
+
+.siteSearchResultHeader {
+	padding:3px;
+	color:white;
+	background-color:#DADADA;
+	background-image:url("../../../themes/default/images/modlet_hdr.jpg");
+	height:16px;
+}
+
+.siteSearchResultContent {
+	margin-bottom:5px;
+}
+
+.siteSearchResultContent .errorMessage {
+	padding:3px;
+}
+
+.siteSearchResultRow {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.siteSearchResultRow:hover {
+	background-color:lightblue;
+	cursor:pointer;
+}
+
+.siteSearchResultRow img
+{
+	float:left;
+	margin-right:3px;
+}
+
+.siteSearchResultRowName {
+	float:left;
+}
+
+.siteSearchResultRowPath {
+	color:gray;
+}
+
+.siteSearchCompletedTask {
+	padding:2px;
+	color:#DADADA;
+	border-bottom:1px solid #DADADA;
+}
+
+.siteSearchCompletedTask:hover {
+	background-color:lightblue;
+	cursor:pointer;
+}
+
+/* reg toolbar button */
+.siteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+}
+
+.siteToolbarBtn img {
+  margin-right:5px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+/* ie toolbar btn */
+.ieSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	width:auto;
+	overflow:visible;
+	padding-right:10px;
+}
+
+.ieSiteToolbarBtn img {
+	height:15px;
+	width:15px;
+  margin-top:-1px;
+  margin-left:5px;
+	margin-right:5px;
+}
+
+/* safari toolbar btn */
+.safariSiteToolbarBtn {
+  font-size:10px;
+  height:22px;
+  white-space:nowrap;
+	padding-top:5px;
+}
+
+.safariSiteToolbarBtn img {
+  margin-right:5px;
+  margin-left:-2px;
+	margin-top:-2px;
+}
+
+/* site toolbar (generic toolbar class to use in site) */
+#siteToolbar {
+	background-color:#DADADA;
+	border:1px solid darkslategray;
+	height:24px;
+}
+
+.siteToolbarCell {
+	float:left;
+	padding:2px;
+	margin-right:5px;
+}
+
+#siteToolbarRight {
+	width:33%;
+	float:left;
+	border:1px solid #DADADA;
+	text-align:right;
+}
+
+#siteToolbarLeft {
+	width:49%;
+	float:left;
+	border:1px solid #DADADA;
+	font-weight:bold;
+}
+
+#siteToolbarLeft button {
+}
+
+/* moduleNavFooter button */
+.siteFooterBtn {
+  font-size:8px;
+  height:14px;
+  white-space:nowrap;
+}
+
+.siteFooterBtn img {
+  margin-right:2px;
+  margin-top:-2px;
+  margin-left:-2px;
+}
+
+/* ie toolbar btn */
+.ieSiteFooterBtn {
+  font-size:8px;
+  height:14px;
+  white-space:nowrap;
+	width:auto;
+	overflow:visible;
+	padding-right:10px;
+}
+
+.ieSiteFooterBtn img {
+	height:12px;
+	width:12px;
+  margin-top:-1px;
+  margin-left:5px;
+	margin-right:5px;
+}
+
+/* safari toolbar btn */
+.safariSiteFooterBtn {
+  font-size:10px;
+  height:14px;
+  white-space:nowrap;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.safariSiteFooterBtn img {
+	height:12px;
+	width:12px;
+	margin-right:2px;
+}
+
+#locSwitchDiv {
+	position:absolute;
+	margin-top:14px;
+	max-height:300px;
+	overflow:auto;
+	background-color:#d6dde5;
+	border:1px solid #8b8b8b;
+	display:none;
+	width:200px;
+	z-index:50;
+}
+
+#locSwitchDiv div {
+	padding:2px;
+}
+
+#locSwitchDiv div:hover {
+	cursor:pointer;
+	background-color:lightyellow;
+}
+
+#screenKiller {
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:#DADADA;
+	z-index:600;
+	opacity: .6;
+	filter: alpha(opacity=60);
+}
+
+#screenMessage {
+	z-index:601;
+	position:absolute;
+	left:0px;
+	top:0px;
+	background-color:white;
+}
+
+.logoutBox {
+	border:1px solid darkblue;	
+	padding:10px;
+}
+
+.logoutBox div {
+	text-align:center;
+}
+
+.logoutMessage {
+	font-weight:bold;
+	color:darkblue;
+	margin-bottom:10px;
+}

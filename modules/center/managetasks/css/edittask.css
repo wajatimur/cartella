@@ -1,0 +1,428 @@
+
+
+/*****************************************************
+	generic styles for all pages
+*****************************************************/
+
+
+#taskDiv {
+	border-left:1px solid #DADADA;
+}
+
+#infoDiv {
+	margin-right:10px;
+}
+
+#contactDiv {
+	visibility:hidden;
+	position:absolute;
+}
+
+.inputCell {
+	border-bottom:1px solid #DADADA;
+	border-right:1px solid #DADADA;
+}
+
+.inputCell .formHeader {
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#F6F6F6;
+	float:left;
+	width:40%;
+	white-space:nowrap;
+	text-align:right;
+	padding-right:20px;
+}
+
+.inputCell input {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:6px;
+	margin-bottom:5px;
+	float:left;
+	border:1px solid #DADADA;
+	background-color:white;
+	max-width:auto;
+	color:black;
+}
+
+.inputCell input:focus {
+	background-color:#F6F6F6;
+}
+
+.inputCell textarea {
+	border:1px solid #DADADA;
+	background-color:white;
+	max-width:auto;
+	color:black;
+}
+
+.inputCell textarea:focus {
+	background-color:#F6F6F6;
+}
+
+.inputCell select {
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:6px;
+	margin-bottom:5px;
+	float:left;
+	max-width:150px;
+	border:1px solid #DADADA;
+	background-color:white;
+	max-width:auto;
+	color:black;
+}
+
+.inputCell select:focus {
+	background-color:#F6F6F6;
+}
+
+.inputCell #cobroker_id {
+	width:100px;
+	margin-right:0px;
+}
+
+.inputCell img {
+  margin-top:7px;
+}
+
+
+/******************************************
+	for radio/checkbox forms
+******************************************/
+
+.multiformHeader {
+	color:darkblue;
+  font-weight:bold;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:8px;
+	padding-bottom:8px;
+	background-color:#F6F6F6;
+	float:left;
+	width:94%;
+	white-space:nowrap;
+	text-align:left;
+	padding-right:20px;
+}
+
+.multiformLeftColumn {
+	float:left;
+	width:47%;
+}
+
+.multiformRightColumn {
+	float:left;
+	width:47%;
+}
+
+.multiformInputCell {
+	margin-top:5px;
+}
+
+.multiformInputCell input {
+	margin-top:0px;
+}
+
+.multiformInputCell select {
+	margin-top:0px;
+}
+
+
+/* yesno form */
+.yesnoform div {
+	float:left;
+	margin-right:7px;
+}
+
+.yesnoform div div {
+	float:left;
+	margin-top:5px;
+	margin-left:-3px;
+}
+
+
+
+/**************************************/
+
+#taskLeft {
+	float:left;
+	width:47%;
+	margin-top:10px;
+	margin-right:20px;
+}
+
+#taskRight {
+	float:left;
+	width:47%;
+	margin-top:10px;
+	margin-left:20px;
+}
+
+
+/*************************************
+	view entry section
+*************************************/
+
+.taskEntryRow {
+  border-bottom:1px solid #DADADA;
+  border-right:1px solid #DADADA; 
+}
+
+.taskEntryTitle {
+	float:left;
+	text-align:right;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:8px;   
+  padding-bottom:8px;
+  background-color:#F6F6F6;
+  width:20%;
+  white-space:nowrap;
+  text-align:right;  
+	font-weight:bold;
+	color:darkblue;
+}
+
+.taskEntryData {
+	float:left;
+	width:69%;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:8px;   
+  padding-bottom:8px;
+  background-color:white;  
+  color:black;   
+
+}
+
+/***********************************
+	editing mode
+***********************************/
+.taskEntryTitleFull {
+	text-align:right;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:8px;   
+  padding-bottom:8px;
+  background-color:#F6F6F6;
+  white-space:nowrap;
+  text-align:left;  
+  padding-right:20px;
+	font-weight:bold;
+	color:darkblue;
+}
+
+
+#taskToolbar {
+	background-color:lightblue;
+	font-weight:bold;
+	white-space:nowrap;
+}
+
+#taskToolbarTitle {
+	float:left;
+	padding:4px;
+}
+
+#taskToolbarBtns {
+	float:right;
+	font-size:10px;
+	font-weight:normal;
+	padding:2px;
+	height:22px;
+	margin-right:5px;
+}
+
+#notes {
+	margin:10px;
+	width:95%;
+	height:100px;
+}
+
+#cTimeHour {
+	float:left;
+	margin-right:2px;
+}
+
+#cTimeMinute {
+	float:left;
+	margin-right:2px;
+	margin-left:2px;
+}
+
+#cTimePeriod {
+	float:left;
+	margin-left:2px;
+}
+
+.timeSep {
+	float:left;
+	margin-top:7px;
+}
+
+#cDate {
+	margin-right:2px;
+	width:85px;
+}
+
+#cDate_btn {
+	margin-left:2px;
+}
+
+
+#editTask .formHeader {
+	width:110px;
+	padding:10px;
+}
+
+#editTask .multiformHeader {
+}
+
+
+#editentry {
+	margin-top:-2px;
+}
+
+#delentry {
+	margin-top:-2px;
+}
+
+#savetask {
+	margin-top:-2px;
+}
+
+#due {
+	margin-top:10px;
+}
+
+/*****************************************
+	action plan portion
+*****************************************/
+
+#apDateSelect {
+	margin:5px;
+}
+
+#apDateSelect .formHeader {
+	white-space:nowrap;
+}
+
+#apBeginDate {
+	margin-left:15px;
+}
+
+#planSelect {
+	margin:5px;
+}
+
+
+#myPlans {
+}
+
+#myPlanCont {
+	margin-left:15px;
+	height:150px;
+	overflow:auto;
+	list-style-type:none;
+	border:1px solid #DADADA;
+}
+
+#pubPlans {
+}
+
+#pubPlanCont {
+	margin-left:20px;
+	height:150px;
+	overflow:auto;
+	list-style-type:none;
+	border:1px solid #DADADA;
+}
+
+#planSubmit {
+	margin:5px;	
+}
+
+#submitWarning {
+	margin:10px;
+}
+
+#planSubmit input {
+	margin:10px;
+}
+
+.selectedPlan {
+	background-color:darkblue;
+	color:white;
+	padding:2px;
+}
+
+.selectedPlan:hover {
+	background-color:darkblue;
+}
+
+li.unselectedPlan {
+	border-bottom:1px solid #DADADA;
+	cursor:pointer;
+	padding:2px;
+}
+
+li.unselectedPlan:hover {
+	background-color:lightyellow;
+}
+
+.leftColumn {
+	width:58%;
+}
+
+.rightColumn {
+	width:38%;
+}
+
+.contactHeader {
+	padding:5px;
+	background-color:lightblue;
+	font-weight:bold;
+}
+
+#infoTitle {
+	padding:5px;
+	background-color:lightblue;
+	font-weight:bold;
+	width:100%;
+}
+
+#contactList {
+	width:40%;
+	float:left;
+	border-left:1px solid #DADADA;
+}
+
+#contactList div {
+	border-bottom:1px solid #DADADA;
+	padding:4px;
+}
+
+#contactList div input {
+	margin-right:5px;
+}
+
+#contactCardDiv {
+	width:58%;
+	float:left;
+}
+
+.contactCard {
+	padding:10px;
+	border-left:1px solid #DADADA;
+	border-right:1px solid #DADADA;
+	border-bottom:1px solid #DADADA;
+	width:100%;
+}
+
+.contactCardName {
+	font-weight:bold;
+}

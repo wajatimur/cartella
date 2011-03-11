@@ -1,0 +1,12 @@
+
+.pendingCell a:link {
+	color:darkslategray;
+}
+
+.pendingCell a:visited {
+	color:darkslategray;
+}
+
+.pendingCell a:hover {
+	color:red;
+}

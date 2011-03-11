@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<data>
+
+	<div id="contentLeft" class="leftColumn">
+
+		<form>
+			<title>Permissions</title>
+			<name>perm[]</name>
+			<type>permission</type>
+		</form>
+		
+	</div>
+	<div id="contentRight" class="rightColumn">
+
+		<form>
+			<title>Account is enabled for DocMGR Access</title>
+			<name>enable</name>
+			<data>enable</data>
+			<type>yesno</type>
+			<display>multiform</display>
+			</form>
+		</div>
+
+</data>
+
+

@@ -1,0 +1,35 @@
+#RightColumn {
+	min-height:400px;
+}
+
+#LeftColumn {
+	min-height:400px;
+}
+
+.modletListContainer {
+}
+
+.modletListContainer div {
+	background-color:white;
+	border-bottom:1px solid black;
+	padding-left:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.modletListContainer div:hover {
+	background-color:lightyellow;
+	cursor:pointer;
+}
+
+.modletListHeader {
+	margin-top:20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:3px;
+  font-family: "Verdana","Arial","Sans Serif";
+  font-size:13px;
+  background-image:url("/themes/default/images/sitenavselect.png");
+  color:white;
+
+}

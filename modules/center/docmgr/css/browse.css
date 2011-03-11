@@ -1,0 +1,163 @@
+/*********************************
+  message list header
+*********************************/
+
+#browseHeader {
+  width:100%;
+	table-layout:fixed;
+}
+ 
+#browseHeader td {
+  font-weight:bold;
+  padding-left:4px;
+  padding-right:4px;
+  white-space:nowrap;
+  font-size:12px;
+	text-align:center;
+	height:20px;
+  background-color:#b3bfb6;
+	
+}
+ 
+#browseHeader td:hover {
+  cursor:pointer;
+  background-color:#DADADA;
+}
+ 
+#browseHeaderSelect {width:35px;}
+#browseHeaderName {width:50%;} 
+#browseHeaderSize {width:80px;}
+#browseHeaderRank {width:80px;}
+#browseHeaderEdited {width:175px}
+#browseHeaderOptions {width:130px}
+
+#browseHeaderSelect img {
+	margin-top:1px;
+	margin-left:-9px;
+}
+
+#browseTable {
+	width:99%;
+	table-layout:fixed;
+}
+
+
+#browseTable td {
+	padding:4px;
+  font-size:12px;
+	border-bottom:1px solid #DADADA;
+}
+ 
+#browseTable tr:hover {
+  cursor:pointer;
+  background-color:lightyellow;
+}
+
+.browseIcon { 
+	width:30px;
+	text-align:center;
+} 
+.browseSelect {
+	width:20px;
+}
+.browseName {width:50%;}
+.browseSize {
+	width:80px;
+	text-align:center;
+}
+.browseRank {
+	width:80px;
+	text-align:center;
+}
+.browseEdited {width:175px}
+.browseOptions {width:130px}
+
+.browseSummary {
+	color:gray;
+	margin-left:10px;
+}
+
+#browseTable td img {
+	margin-left:3px;
+	margin-right:3px;
+	margin-bottom:-2px;
+}
+
+#uploadList {
+	height:150px;
+	overflow:auto;
+	border:1px solid #DADADA;
+}
+
+#uploadList li {
+	padding:2px;
+	border-bottom:1px solid #DADADA;
+}
+
+.keywordList {
+	width:98%;
+	margin-left:10px;
+}
+
+.keywordRow td {
+	padding:3px;
+}
+
+.keywordLabel {
+	padding-top:2px;
+	padding-right:5px;
+	font-weight:bold;
+}
+
+.keywordEntry {
+	float:left;
+}
+
+#embedLinkBtn {
+	margin-top:5px;
+}
+
+.searchObjectPath {
+	margin-left:10px;
+	z-index:500;
+	color:gray;
+}
+
+.searchObjectPath a:link {
+	color:gray;
+}
+
+.searchObjectPath a:visited {
+	color:gray;
+}
+
+.searchObjectPath a:hover {
+	color:red;
+}
+
+#saveSearchCell {
+	float:right;
+	margin-top:-5px;
+	margin-left:10px;
+}
+
+#saveSearchSummary {
+	width:95%;
+	height:100px;
+}
+
+#revision_notes
+{
+	width:100%;
+	height:150px;
+}
+
+#checkinCell
+{
+	float:left;
+}
+
+#customVersionCell
+{
+	float:right;
+}

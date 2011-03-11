@@ -1,0 +1,65 @@
+
+.tagLeftColumn {
+  width:40%;
+  float:left;
+}
+
+.tagRightColumn {
+  width:40%;
+  float:left;
+}
+
+.tagId {
+  width:135px;
+}
+
+.tagRow {
+  border-bottom:1px solid #DADADA;
+  color:darkslategray;
+  padding:2px;
+}
+
+
+.tagRow input {
+  margin-left:15px;
+  margin-right:4px;
+}
+
+.tagHeader {
+  padding-left:10px;
+  color:black;
+  font-weight:bold;
+  background-color:#B3BFB6;
+}
+
+.tagDiv {
+  overflow:auto;
+  max-height:200px;
+}
+
+.popupTagDiv {
+  height:230px;
+  border:1px solid #DADADA;
+  overflow:auto;   
+}
+
+.popupTagRow {
+  padding:2px;
+  border-bottom:1px solid #DADADA;
+}
+
+.popupTagRow img {
+  float:right;
+  margin-left:2px;
+  margin-right:2px;
+  border:1px solid white;
+}
+
+.popupTagRow img:hover {
+  cursor:pointer;
+  border:1px outset darkslategray;
+}
+
+#manageTagCell button {  
+  float:right;
+}

@@ -1,0 +1,25 @@
+
+#logList {
+	border:1px solid darkslategray;
+	width:600px;
+}
+
+#logList td {
+	padding:5px;
+}
+
+.logListHeader {
+	background-color:#DADADA;
+	border-right:1px solid darkslategray;
+	border-bottom:1px solid darkslategray;
+	font-weight:bold;
+}
+
+.logListData {
+	border-right:1px solid darkslategray;
+	border-bottom:1px solid #DADADA;
+}
+
+.logFilterDiv {
+	margin:2px;
+}

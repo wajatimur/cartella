@@ -1,0 +1,57 @@
+
+#accountList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-left:5px;
+	margin-top:3px;
+}
+
+#accountList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#accountList div img {
+	margin-left:4px;
+	margin-top:4px;
+	margin-right:4px;
+}
+
+
+#memberList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-right:5px;
+	margin-top:7px;
+}
+
+html>body #memberList {
+	width:200px;
+	height:175px;
+	overflow:auto;
+	border:1px solid #DADADA;
+	margin-right:5px;
+	margin-top:3px;
+}
+
+#memberList div {
+	border-bottom:1px solid #DADADA;
+}
+
+#memberList div img {
+	margin-left:4px;
+	margin-top:4px;
+	margin-right:4px;
+}
+
+.formHeader input {
+	float:right;
+	font-size:10px;
+	font-family:Tahoma;
+	height:18px;
+	width:100px;
+	font-weight:normal;
+}

@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Bookmarks</module_name>
+		<link_name>bkmodlet</link_name>
+		<hidden></hidden>
+		<sort_order>1</sort_order>
+		<module_description></module_description>
+		<modlet>home</modlet>
+	</module>
+

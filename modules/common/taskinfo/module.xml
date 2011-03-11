@@ -1,0 +1,9 @@
+	<module>
+		<module_name>Task Info</module_name>
+		<link_name>taskinfo</link_name>
+		<hidden>1</hidden>
+		<sort_order>2</sort_order>
+		<module_description>Returns information for a specific prospect</module_description>
+		<template>empty</template>
+	</module>
+

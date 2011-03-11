@@ -1,0 +1,11 @@
+	<module>
+		<module_name>Search</module_name>
+		<link_name>searchcontacts</link_name>
+		<hidden></hidden>
+		<sort_order>2</sort_order>
+		<module_description></module_description>
+		<helper>home</helper>
+		<helper>addcontact</helper>
+		<helper_sort>1</helper_sort>
+	</module>
+
