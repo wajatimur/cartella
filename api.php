@@ -18,7 +18,6 @@ if ($err = $a->getError())
 	
 } else if (!$_SESSION["api"]["authorize"]) 
 {
-
 	//if not authorized but don't have an error message, show a generic error 
 	$PROTO->add("error","Could not log into api");
 
